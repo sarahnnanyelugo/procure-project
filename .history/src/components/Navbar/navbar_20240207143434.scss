@@ -1,0 +1,11 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.top-nav-container {
+  .logo-div {
+    flex-grow: 1;
+  }
+  a {
+    color: #fff;
+  }
+}

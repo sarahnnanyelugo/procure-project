@@ -1,0 +1,5 @@
+<svg id="arrow-down" xmlns="http://www.w3.org/2000/svg" width="73.055" height="73.055" viewBox="0 0 73.055 73.055">
+  <path id="Vector" d="M36.953,0,18.477,18.477,0,0" transform="translate(18.051 43.924)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0V51.23" transform="translate(36.527 10.654)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H73.055V73.055H0Z" transform="translate(73.055 73.055) rotate(180)" fill="none" opacity="0"/>
+</svg>

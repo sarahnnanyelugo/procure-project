@@ -1,0 +1,181 @@
+.mt1 {
+  margin-top: 10px;
+}
+.mt2 {
+  margin-top: 20px;
+}
+.mt3 {
+  margin-top: 30px;
+}
+.mt4 {
+  margin-top: 40px;
+}
+.mt5 {
+  margin-top: 50px;
+}
+.mt6 {
+  margin-top: 60px;
+}
+.mt7 {
+  margin-top: 70px;
+}
+.mt8 {
+  margin-top: 80px;
+}
+.mt9 {
+  margin-top: 90px;
+}
+.mt {
+  margin-top: 140px;
+}
+.mtt {
+  margin-top: 200px;
+}
+.bb {
+  border-bottom: solid 1px rgb(233, 229, 229);
+}
+.bt {
+  border-top: solid 1px rgb(233, 229, 229);
+}
+.pd {
+  padding: 80px 0;
+}
+.br {
+  border-right: solid 1px rgb(233, 229, 229);
+}
+.no-m {
+  @media screen and (max-width: 620px) {
+    margin: 0 !important;
+  }
+}
+.ml {
+  margin-left: 10px;
+}
+.ml4 {
+  margin-left: 40px;
+}
+.ml3 {
+  margin-left: 30px;
+}
+
+.features-link {
+  color: #191919;
+  text-decoration: none;
+  &:hover {
+    color: #191919;
+  }
+}
+
+.mb5 {
+  margin-bottom: 50px;
+}
+.mb4 {
+  margin-bottom: 40px;
+}
+
+.no-margin {
+  @media screen and (max-width: 620px) {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+}
+.grad2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 28%,
+    rgba(240, 240, 240, 1) 48%,
+    rgba(255, 255, 255, 1) 75%
+  );
+}
+.dn {
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+}
+.dnW {
+  @media screen and (min-width: 620px) {
+    display: none;
+  }
+}
+.dnM {
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+}
+.img-resolv {
+  width: 90%;
+  @media screen and (max-width: 620px) {
+    width: 100%;
+  }
+}
+.heading-adj {
+  margin-bottom: -10px;
+  @media screen and (max-width: 620px) {
+    margin-bottom: -50px;
+  }
+}
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.product_price {
+  color: rgb(153, 0, 0);
+  font-weight: 400 !important;
+  font-size: 20px;
+}
+.product_discount_price {
+  color: rgb(201, 199, 199);
+}
+.sticky-col {
+  position: sticky;
+  top: 120px; /* Adjust the top value as needed */
+  .list-group-item {
+    width: 100% !important;
+  }
+}
+
+/* Hide scrollbar by default */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.app-btn {
+  color: #fff;
+  border-radius: 40px;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-family: SoraM;
+  background: $appcolor;
+  border: none;
+
+  &:hover {
+    background: #ee1300;
+    transition: 0.5s ease;
+  }
+  @media screen and (max-width: 620px) {
+    font-size: 10px;
+    padding: 8px 18px;
+  }
+}

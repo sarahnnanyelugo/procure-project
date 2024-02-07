@@ -1,0 +1,23 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.top-nav-container {
+  .logo-div {
+    flex-grow: 1;
+  }
+  .nav-actions {
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-family: SoraSB;
+      &:hover {
+        color: $appcolor;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  ul li {
+    margin-left: 30px;
+  }
+}

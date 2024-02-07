@@ -1,0 +1,26 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+
+  background: transparent linear-gradient(255deg, #ffffff00 0%, #000000d3 100%)
+    0% 0% no-repeat; /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  height: 100%;
+}
+.cover {
+  position: relative;
+  //   height: 100%;
+}
+.vid {
+  display: block;
+  width: 100%;
+  height: auto;
+}
