@@ -191,29 +191,7 @@ export const Home = () => {
               </center>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="areas area12">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area13">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area14">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-          </div>
+          <div className="col-md-3"></div>
         </div>
       </div>
       <div className="top-products ">

@@ -11,9 +11,9 @@ export default function Navbar(props) {
         <div className="flexy flexyM">
           {" "}
           <div className="logo-div ">
-            <img width="100%" src={Logo} alt="" className="col-md-2 col-6" />
+            <img width="100%" src={Logo} alt="" className="col-md-2 col-4" />
           </div>
-          <ul className="list-unstyled list-inline nav-actions mt1 no-m ">
+          <ul className="list-unstyled list-inline nav-actions mt1 no-m col-8">
             <li className="list-inline-item">
               {" "}
               <NavLink to={""} style={{ color: colo }}>
@@ -34,8 +34,8 @@ export default function Navbar(props) {
             </li>
           </ul>
         </div>
-        <div className="flexy mt1 flexyM">
-          <div style={{ flexGrow: 1 }} className="col-4">
+        <div className="flexy mt1">
+          <div style={{ flexGrow: 1 }}>
             <Menu />
           </div>
           <ul className="list-unstyled list-inline nav-pages ">

@@ -11,7 +11,7 @@ export default function Navbar(props) {
         <div className="flexy flexyM">
           {" "}
           <div className="logo-div ">
-            <img width="100%" src={Logo} alt="" className="col-md-2 col-6" />
+            <img width="100%" src={Logo} alt="" className="col-md-2 col-3" />
           </div>
           <ul className="list-unstyled list-inline nav-actions mt1 no-m ">
             <li className="list-inline-item">

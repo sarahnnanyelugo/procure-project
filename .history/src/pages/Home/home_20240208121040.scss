@@ -10,19 +10,14 @@
   width: 100%;
   opacity: 1;
   color: white;
-  top: 0;
+
   padding-top: 10px;
-  height: 112%;
-  @media screen and (max-width: 620px) {
-    height: 650px;
-    transform: translateX(0%) translateY(0%);
-    top: 0;
-  }
+  height: 100%;
   h1 {
     font-size: 60px;
     line-height: 80px;
     @media screen and (max-width: 620px) {
-      font-size: 35px;
+      font-size: 40px;
       line-height: 40px;
     }
   }
@@ -46,7 +41,7 @@
   width: 100%;
   height: auto;
   @media screen and (max-width: 620px) {
-    height: 650px;
+    height: 800px;
     transform: translateX(0%) translateY(0%);
     object-fit: cover;
   }
@@ -71,22 +66,12 @@
     &:hover {
       background: #ffffff4d 0% 0% no-repeat padding-box;
     }
-    @media screen and (max-width: 620px) {
-      border-radius: 20px;
-      padding: 3px 20px;
-      margin-left: 5px;
-      font-size: 10px;
-    }
   }
   h6 {
     margin-top: 5px;
   }
 }
 .brands {
-  margin-top: 100px;
-  @media screen and (max-width: 620px) {
-    margin-top: 40px;
-  }
   p {
     font-family: SoraR;
     color: #b1a8a8;
@@ -95,30 +80,17 @@
     height: 384px;
     border-radius: 8px;
     padding: 50px 30px 0 30px;
-    @media screen and (max-width: 620px) {
-      padding: 30px 10px 0 10px;
-      height: 280px;
-    }
     img {
       margin-bottom: 40px;
-      @media screen and (max-width: 620px) {
-        margin-bottom: 10px;
-      }
     }
     h3 {
       font-size: 26px;
-      @media screen and (max-width: 620px) {
-        font-size: 16px;
-      }
     }
     p {
       font-family: SoraR;
       font-size: 16px;
       margin-top: 15px;
       color: #141212;
-      @media screen and (max-width: 620px) {
-        font-size: 13px;
-      }
     }
   }
   .b-1 {
@@ -139,14 +111,10 @@
   }
 }
 .products {
-  margin-top: 250px;
   h1 {
     font-size: 60px;
     color: #590700;
     margin-bottom: 40px;
-    @media screen and (max-width: 620px) {
-      font-size: 40px;
-    }
   }
   p {
     font-family: SoraM;
@@ -162,76 +130,5 @@
     font-size: 60px;
     color: #141212;
     margin-bottom: 70px;
-    @media screen and (max-width: 620px) {
-      font-size: 30px;
-    }
-  }
-}
-.areas-div {
-  .areas {
-    border: 4px solid #efecec;
-    height: 149px;
-    width: 149px;
-    background: #fff;
-    border-radius: 50%;
-    padding: 30px;
-    margin-bottom: 10px;
-    p {
-      font-size: 12px;
-    }
-    &:hover {
-      border: solid 4px #f29d95;
-    }
-  }
-  .area1 {
-    margin-top: 40px;
-  }
-  .area2 {
-    margin-left: 30px;
-  }
-  .area3 {
-    margin-left: 30px;
-  }
-  .area4 {
-    margin-left: -60px;
-    margin-top: -90px;
-    margin-bottom: 30px;
-  }
-  .area5 {
-    margin-bottom: 30px;
-  }
-  .area6 {
-    margin-left: 30px;
-    margin-bottom: 30px;
-  }
-  .area7 {
-    margin-left: 10px;
-    margin-bottom: 30px;
-  }
-  .area8 {
-    margin-left: -60px;
-    margin-top: -140px;
-    margin-bottom: 0px;
-  }
-  .area9 {
-    margin-bottom: 30px;
-  }
-  .area10 {
-    margin-bottom: 30px;
-    margin-left: 30px;
-  }
-  .area11 {
-    margin-left: 30px;
-  }
-  .area12 {
-    margin-top: -90px;
-    margin-left: -30px;
-    margin-bottom: 30px;
-  }
-  .area13 {
-    margin-bottom: 30px;
-  }
-  .area14 {
-    margin-left: 30px;
   }
 }

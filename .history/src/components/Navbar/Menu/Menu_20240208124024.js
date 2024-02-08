@@ -16,8 +16,7 @@ function Menu(props) {
   return (
     <>
       <h6
-        // onMouseEnter={handleShow}
-        onClick={handleShow}
+        onMouseEnter={handleShow}
         className="canvas-trigger"
         style={{ color: colo2 }}
       >

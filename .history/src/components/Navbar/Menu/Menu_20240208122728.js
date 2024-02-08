@@ -16,7 +16,6 @@ function Menu(props) {
   return (
     <>
       <h6
-        // onMouseEnter={handleShow}
         onClick={handleShow}
         className="canvas-trigger"
         style={{ color: colo2 }}
@@ -25,6 +24,7 @@ function Menu(props) {
       </h6>
 
       <Offcanvas show={show} onHide={handleClose} placement="top">
+      
         <Offcanvas.Body>
           <Navbar colo="black" />
         </Offcanvas.Body>

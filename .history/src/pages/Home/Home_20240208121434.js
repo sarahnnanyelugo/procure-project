@@ -33,7 +33,7 @@ export const Home = () => {
             {" "}
             <input placeholder="What are you looking to buy?" />
             <div className="input-overlay flexy flexyM col-md-12">
-              <div className="col-md-10 ">&nbsp;</div>
+              {/* <div className="col-md-10 ">&nbsp;</div> */}
               <button className="app-btn ">Sign up</button>
             </div>
           </div>
@@ -46,7 +46,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 brands">
+      <div className="col-md-10 offset-md-1 mt brands">
         <p>Trusted By World’s Biggest Brands</p>
         <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 mt8">
           <div className="col">
@@ -93,7 +93,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" products col-md-10 offset-md-1 flexy">
+      <div className="mt products col-md-10 offset-md-1 flexy">
         <div className="col-md-5">
           <h1>
             Explore a vast <br /> array of products personalised to suit your
@@ -106,114 +106,6 @@ export const Home = () => {
           <Link className="app-btn" to={""}>
             View All
           </Link>
-        </div>
-        <div className="col-md-6 offset-md-1 areas-div flexy">
-          <div className="col-md-3">
-            <div className="areas area1">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>{" "}
-            <div className="areas area2">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>{" "}
-            <div className="areas area3">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="areas area4">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area5">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area6">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area7">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="areas area8">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area9">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area10">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area11">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <div className="areas area12">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area13">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area14">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-          </div>
         </div>
       </div>
       <div className="top-products ">

@@ -4,7 +4,7 @@
 .top-nav-container {
   border-bottom: solid 1px #e9e6e645;
   .logo-div {
-    flex-grow: 1;
+    // flex-grow: 1;
   }
   .nav-actions {
     a {
@@ -31,16 +31,13 @@
         color: $appcolor !important;
         text-decoration: underline;
       }
-      @media screen and (max-width: 620px) {
-        font-size: 10px;
-      }
     }
   }
 
   ul li {
     margin-left: 30px;
     @media screen and (max-width: 620px) {
-      margin-left: 5px;
+      margin-left: 10px;
     }
   }
 }

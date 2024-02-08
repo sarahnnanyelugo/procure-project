@@ -93,7 +93,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" products col-md-10 offset-md-1 flexy">
+      <div className="mt products col-md-10 offset-md-1 flexy">
         <div className="col-md-5">
           <h1>
             Explore a vast <br /> array of products personalised to suit your
@@ -191,29 +191,7 @@ export const Home = () => {
               </center>
             </div>
           </div>
-          <div className="col-md-3">
-            <div className="areas area12">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area13">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-            <div className="areas area14">
-              <center>
-                {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
-              </center>
-            </div>
-          </div>
+          <div className="col-md-3"></div>
         </div>
       </div>
       <div className="top-products ">
