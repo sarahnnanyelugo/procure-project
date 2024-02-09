@@ -106,10 +106,6 @@ function TopProducts() {
                 {" "}
                 <Shoes data={arrivals.list9} />
               </div>
-              <div className="col">
-                {" "}
-                <SchoolSupplies data={arrivals.list4} />
-              </div>
 
               <div className="col">
                 <Jewelries data={arrivals.list5} />
@@ -117,38 +113,34 @@ function TopProducts() {
             </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
+        {" "}
+        <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-4">
           {" "}
-          <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-4">
-            {" "}
-            {products3.map((data, index) => (
-              <Products data={data} />
+          {products3.map((data, index) => (
+            <Products data={data} />
+          ))}
+        </div>
+        <center>
+          <button className="app-btn all-products-btn">
+            Explore all products
+          </button>
+        </center>
+        <div className="mt7">
+          <h2>New Arrivals</h2>
+          <div className="row row-cols-1 row-cols-lg-3 g-2 g-lg-4">
+            {arrivals.list6.map((data, index) => (
+              <HairAccessories data={data} />
+            ))}{" "}
+            {arrivals.list7.map((data, index) => (
+              <Electronics data={data} />
+            ))}{" "}
+            {arrivals.list8.map((data, index) => (
+              <HomeDecor data={data} />
             ))}
           </div>
-          <center>
-            <button className="app-btn all-products-btn">
-              Explore all products
-            </button>
-          </center>
-          <div className="mt7">
-            <h2>New Arrivals</h2>
-            <div className="row row-cols-1 row-cols-lg-3 g-2 g-lg-4">
-              <div className="col">
-                {" "}
-                <HairAccessories data={arrivals.list6} />
-              </div>
-
-              <div className="col">
-                <Electronics data={arrivals.list7} />
-              </div>
-
-              <div className="col">
-                {" "}
-                <HomeDecor data={arrivals.list8} />
-              </div>
-            </div>
-          </div>
-        </Carousel.Item>
+        </div>
+      </Carousel.Item> */}
       </Carousel>
     </>
   );
