@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Group_17529" data-name="Group 17529" transform="translate(-753 -1214)">
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="52" height="52" rx="26" transform="translate(753 1214)" fill="rgba(255,255,255,0.5)"/>
+    <g id="story" transform="translate(12.989 713.989)">
+      <path id="Vector" d="M0,0H36.022V36.022H0Z" transform="translate(784.022 544.022) rotate(180)" fill="none" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M16.015,2.747a9.382,9.382,0,1,1-13.268,0A9.385,9.385,0,0,1,16.015,2.747Z" transform="translate(756.63 517.186)" fill="#5e96f8"/>
+      <g id="Group" transform="translate(749.872 523.556)">
+        <path id="Vector-3" data-name="Vector" d="M10.511,18.05a1.379,1.379,0,0,1-.42-.075,15.964,15.964,0,0,1-7.94-6.889A15.909,15.909,0,0,1,.14.984,1.139,1.139,0,0,1,1.4.008a1.131,1.131,0,0,1,.976,1.261A13.769,13.769,0,0,0,4.1,9.945a13.664,13.664,0,0,0,6.814,5.914,1.147,1.147,0,0,1,.63,1.471A1.111,1.111,0,0,1,10.511,18.05Z" transform="translate(0 0)" fill="#5e96f8" opacity="0.4"/>
+      </g>
+      <g id="Group-2" data-name="Group" transform="translate(755.652 510.416)">
+        <path id="Vector-4" data-name="Vector" d="M1.129,5.433A1.13,1.13,0,0,1,.243,5a1.108,1.108,0,0,1,.2-1.576A16.078,16.078,0,0,1,20.115,3.3,1.124,1.124,0,1,1,18.75,5.088a13.847,13.847,0,0,0-16.931.105A1.1,1.1,0,0,1,1.129,5.433Z" transform="translate(0)" fill="#5e96f8" opacity="0.4"/>
+      </g>
+      <g id="Group-3" data-name="Group" transform="translate(770.51 523.571)">
+        <path id="Vector-5" data-name="Vector" d="M1.13,18.035a1.128,1.128,0,0,1-.42-2.176A13.736,13.736,0,0,0,7.524,9.945,13.575,13.575,0,0,0,9.25,1.269,1.127,1.127,0,1,1,11.486.984a16.026,16.026,0,0,1-2.011,10.1,15.973,15.973,0,0,1-7.94,6.889A1.644,1.644,0,0,1,1.13,18.035Z" transform="translate(0 0)" fill="#5e96f8" opacity="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

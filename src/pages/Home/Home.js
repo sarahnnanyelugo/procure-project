@@ -4,8 +4,26 @@ import Video from "../../assets/images/web-video.mp4";
 import Pricing from "../../assets/images/pricing.svg";
 import Receipt from "../../assets/images/receipt.svg";
 import Quality from "../../assets/images/quality.svg";
+import Icon1 from "../../assets/images/construction.svg";
+import Icon2 from "../../assets/images/gifts.svg";
+import Icon3 from "../../assets/images/package.svg";
+import Icon4 from "../../assets/images/lights.svg";
+import Icon5 from "../../assets/images/vehicle.svg";
+import Icon6 from "../../assets/images/beauty.svg";
+import Icon7 from "../../assets/images/jewelry.svg";
+import Icon8 from "../../assets/images/tv.svg";
+import Icon9 from "../../assets/images/school.svg";
+import Icon10 from "../../assets/images/furniture.svg";
+import Icon11 from "../../assets/images/sports.svg";
+import Icon12 from "../../assets/images/tools.svg";
+import Icon13 from "../../assets/images/kids.svg";
+import Icon14 from "../../assets/images/shoes.svg";
+import Search from "../../assets/images/search.svg";
+import Audio from "../../assets/images/audio.svg";
+import Cam from "../../assets/images/cam.svg";
 import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
+import TopProducts from "./TopProducts/TopProducts";
 export const Home = () => {
   return (
     <>
@@ -33,8 +51,29 @@ export const Home = () => {
             {" "}
             <input placeholder="What are you looking to buy?" />
             <div className="input-overlay flexy flexyM col-md-12">
-              <div className="col-md-10 ">&nbsp;</div>
-              <button className="app-btn ">Sign up</button>
+              <div className="col-md- ">
+                <img
+                  src={Search}
+                  height="24px"
+                  width="24px"
+                  className="input-search"
+                />
+              </div>
+              <div className="flexy flexyM offset-md-7 offset-5">
+                <img
+                  src={Audio}
+                  height="24px"
+                  width="24px"
+                  className="input-actions"
+                />
+                <img
+                  src={Cam}
+                  height="24px"
+                  width="24px"
+                  className="input-actions"
+                />
+                <button className="app-btn ">Sign up</button>
+              </div>
             </div>
           </div>
           <div className="col-md-6 offset-md-1 mt2 flexy popular-searches">
@@ -107,110 +146,110 @@ export const Home = () => {
             View All
           </Link>
         </div>
-        <div className="col-md-6 offset-md-1 areas-div flexy">
-          <div className="col-md-3">
+        <div className="col-md-6 offset-md-1 areas-div flexy flexyM">
+          <div className="col-md-3 col-3 ">
             <div className="areas area1">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon1} />
+                <p>Construction & Real Estate</p>
               </center>
             </div>{" "}
             <div className="areas area2">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon2} />
+                <p>Gifts & Crafts</p>
               </center>
             </div>{" "}
             <div className="areas area3">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon3} />
+                <p>Packaging & Printing</p>
               </center>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <div className="areas area4">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
+                <img src={Icon4} />
                 <p>Lights & Lighting</p>
               </center>
             </div>
             <div className="areas area5">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon5} />
+                <p>Vehicle Accessories, …</p>
               </center>
             </div>
             <div className="areas area6">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon6} />
+                <p>Beauty</p>
               </center>
             </div>
             <div className="areas area7">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon7} />
+                <p>Jewelry, Eyewear</p>
               </center>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <div className="areas area8">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon8} />
+                <p>Home Appliances</p>
               </center>
             </div>
             <div className="areas area9">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon9} />
+                <p>School & Office Supplies</p>
               </center>
             </div>
             <div className="areas area10">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon10} />
+                <p>Furniture</p>
               </center>
             </div>
             <div className="areas area11">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon11} />
+                <p>Sports & Entertainment</p>
               </center>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <div className="areas area12">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon12} />
+                <p>Tools & Hardware</p>
               </center>
             </div>
             <div className="areas area13">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon13} />
+                <p>Mother, Kids & Toys</p>
               </center>
             </div>
             <div className="areas area14">
               <center>
                 {" "}
-                <img src={Quality} height="36px" width="36px" />
-                <p>Lights & Lighting</p>
+                <img src={Icon14} />
+                <p>Shoes & Accessories</p>
               </center>
             </div>
           </div>
@@ -219,6 +258,7 @@ export const Home = () => {
       <div className="top-products ">
         <div className="col-md-10 offset-md-1">
           <h1>Top Curated Products by Industry</h1>
+          <TopProducts />
         </div>
       </div>
     </>

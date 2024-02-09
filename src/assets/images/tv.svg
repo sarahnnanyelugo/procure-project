@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <g id="vuesax_linear_monitor" data-name="vuesax/linear/monitor" transform="translate(-428 -188)">
+    <g id="monitor" transform="translate(428 188)">
+      <path id="Vector" d="M7.215,0H25.269C31.054,0,32.5,1.446,32.5,7.215V17.5c0,5.785-1.446,7.215-7.215,7.215H7.215C1.446,24.732,0,23.286,0,17.517V7.215C0,1.446,1.446,0,7.215,0Z" transform="translate(3.25 3.25)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0V7.768" transform="translate(19.5 27.983)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H14.625" transform="translate(12.188 35.75)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H39V39H0Z" fill="none" opacity="0"/>
+    </g>
+    <text id="TV" transform="translate(448 209)" fill="#141212" font-size="14" font-family="Sora-Bold, Sora" font-weight="700"><tspan x="-9" y="0">TV</tspan></text>
+  </g>
+</svg>

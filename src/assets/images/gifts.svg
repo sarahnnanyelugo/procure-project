@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.073" height="39.073" viewBox="0 0 39.073 39.073">
+  <g id="vuesax_linear_gift" data-name="vuesax/linear/gift" transform="translate(-236 -252)">
+    <g id="gift" transform="translate(236 252)">
+      <path id="Vector" d="M26.049,0H0V13.024c0,4.884,1.628,6.512,6.512,6.512H19.537c4.884,0,6.512-1.628,6.512-6.512Z" transform="translate(6.463 16.281)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-2" data-name="Vector" d="M30.933,3.256V4.884A2.937,2.937,0,0,1,27.677,8.14H3.256C.765,8.14,0,6.675,0,4.884V3.256C0,1.465.765,0,3.256,0H27.677A2.937,2.937,0,0,1,30.933,3.256Z" transform="translate(4.07 8.14)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-3" data-name="Vector" d="M9.39,4.88H.4A1.524,1.524,0,0,1,.452,2.764L2.764.452a1.562,1.562,0,0,1,2.2,0Z" transform="translate(9.56 3.26)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-4" data-name="Vector" d="M8.987,4.88H0L4.428.452a1.562,1.562,0,0,1,2.2,0L8.938,2.764A1.524,1.524,0,0,1,8.987,4.88Z" transform="translate(20.106 3.26)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0V8.368A1.632,1.632,0,0,0,2.523,9.736l1.53-1.009a1.627,1.627,0,0,1,1.791,0L7.294,9.7A1.623,1.623,0,0,0,9.817,8.352V0Z" transform="translate(14.555 16.281)" fill="none" stroke="#141212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H39.073V39.073H0Z" transform="translate(39.073 39.073) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
