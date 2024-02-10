@@ -24,7 +24,6 @@ import Cam from "../../assets/images/cam.svg";
 import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import TopProducts from "./TopProducts/TopProducts";
-import Features from "./Features/Features";
 export const Home = () => {
   return (
     <>
@@ -261,9 +260,6 @@ export const Home = () => {
           <h1>Top Curated Products by Industry</h1>
           <TopProducts />
         </div>
-      </div>
-      <div className="col-md-10 offset-md-1">
-        <Features />
       </div>
     </>
   );

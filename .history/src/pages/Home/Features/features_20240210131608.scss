@@ -1,0 +1,41 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.features-container {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  h1 {
+    font-size: 60px;
+  }
+}
+.image-controls {
+  p {
+    display: none;
+    margin-left: 40px;
+    font-family: SoraM;
+    color: #141212;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  cursor: pointer;
+  h3 {
+    color: rgb(152, 150, 150);
+    font-size: 35px;
+    font-family: SoraB;
+
+    &:hover {
+      font-size: 45px;
+      color: #141212;
+      margin-left: 40px;
+      margin-top: 30px;
+      transition: 0.9s ease;
+    }
+  }
+  h3:hover + p {
+    display: block;
+    transition: 0.9s ease; /* Display the paragraph when h3 is hovered */
+  }
+}
+.dashboard-display {
+  height: 500px;
+}

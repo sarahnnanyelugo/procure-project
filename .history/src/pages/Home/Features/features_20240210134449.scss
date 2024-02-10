@@ -1,0 +1,50 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.features-container {
+  margin-top: 100px;
+  h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+    font-family: SerifR;
+    @media screen and (max-width: 620px) {
+      dont-size: 30px;
+    }
+  }
+}
+.image-controls {
+  cursor: pointer;
+  background: red;
+  margin-bottom: 20px p {
+    display: none;
+    margin-left: 40px;
+    font-family: SoraM;
+    color: #141212;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    color: rgb(152, 150, 150);
+    font-size: 35px;
+    font-family: SoraB;
+  }
+}
+
+.image-controls:hover {
+  h3 {
+    font-size: 45px;
+    color: #141212;
+    margin-left: 40px;
+    margin-top: 30px;
+    transition: 0.9s ease;
+  }
+  p {
+    display: block;
+    transition: 0.9s ease;
+  }
+}
+
+.dashboard-display {
+  height: 500px;
+}
