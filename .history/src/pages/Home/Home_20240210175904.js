@@ -26,7 +26,6 @@ import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import TopProducts from "./TopProducts/TopProducts";
 import Features from "./Features/Features";
-import Testimonial from "./Testimonial/Testimonial";
 export const Home = () => {
   return (
     <>
@@ -286,7 +285,6 @@ export const Home = () => {
           </div>
         </center>
       </div>
-      <Testimonial />
     </>
   );
 };

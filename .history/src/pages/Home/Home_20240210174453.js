@@ -21,12 +21,10 @@ import Icon14 from "../../assets/images/shoes.svg";
 import Search from "../../assets/images/search.svg";
 import Audio from "../../assets/images/audio.svg";
 import Cam from "../../assets/images/cam.svg";
-import OrderPic from "../../assets/images/order-pic.png";
 import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import TopProducts from "./TopProducts/TopProducts";
 import Features from "./Features/Features";
-import Testimonial from "./Testimonial/Testimonial";
 export const Home = () => {
   return (
     <>
@@ -277,16 +275,6 @@ export const Home = () => {
         </div>
         <div className="col-md-5"></div>
       </div>
-      <div className="col-md-12 get-started-div">
-        <center>
-          <div className="col-md-10">
-            <h1 className="col-md-6">Quality orders down to your doorstep</h1>
-            <button className="app-btn">Get started</button>
-            <img src={OrderPic} width="100%" />
-          </div>
-        </center>
-      </div>
-      <Testimonial />
     </>
   );
 };

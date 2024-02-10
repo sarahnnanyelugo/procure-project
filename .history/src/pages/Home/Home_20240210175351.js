@@ -26,7 +26,6 @@ import Navbar from "../../components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import TopProducts from "./TopProducts/TopProducts";
 import Features from "./Features/Features";
-import Testimonial from "./Testimonial/Testimonial";
 export const Home = () => {
   return (
     <>
@@ -280,13 +279,10 @@ export const Home = () => {
       <div className="col-md-12 get-started-div">
         <center>
           <div className="col-md-10">
-            <h1 className="col-md-6">Quality orders down to your doorstep</h1>
-            <button className="app-btn">Get started</button>
             <img src={OrderPic} width="100%" />
           </div>
         </center>
       </div>
-      <Testimonial />
     </>
   );
 };
