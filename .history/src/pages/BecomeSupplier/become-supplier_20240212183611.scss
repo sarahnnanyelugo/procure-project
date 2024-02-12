@@ -1,0 +1,36 @@
+.become-supplier-overlay {
+  h1 {
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  button {
+    margin: 5px;
+  }
+  .contact-btn {
+    color: #fff;
+    border-radius: 40px;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-family: SoraM;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    &:hover {
+      background: #e9e6e6;
+      transition: 0.5s ease;
+      color: #000;
+    }
+  }
+}
+.supplier-intros {
+  margin-top: 50px;
+  margin-bottom: 300px;
+  h1 {
+    font-size: 60px;
+  }
+}
+.empty-div {
+  background: #e9e6e6;
+  height: 650px;
+  border-radius: 30px;
+}

@@ -1,0 +1,37 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.accordion {
+}
+.accordion-button {
+  font-size: 18px !important;
+  font-family: PoppinsB;
+}
+.accordion-button:focus {
+  background: #fff !important;
+  color: $appcolor !important;
+  border: none !important;
+}
+.accordion-body {
+  padding: 10px 40px !important;
+
+  p {
+    font-size: 15px !important;
+    color: #161617;
+  }
+}
+.accordion-item {
+  border-top: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 0 !important;
+}
+.accordion-item:last-of-type .accordion-button {
+  border-radius: 0 !important;
+}
+.questions-container {
+  position: relative;
+  z-index: 1;
+}
