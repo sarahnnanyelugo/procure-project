@@ -1,0 +1,27 @@
+.testimonial-div {
+  background: #e9e6e639;
+  height: 615px;
+  padding-top: 50px;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+  }
+  h1 {
+    color: #590700;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 620px) {
+      font-size: 25px;
+    }
+  }
+  h6 {
+    font-size: 20px;
+    font-family: SoraSB;
+    color: #141212;
+  }
+  p {
+    font-size: 16px;
+    color: #6b6060;
+    font-family: SoraSR;
+  }
+}
