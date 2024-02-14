@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53">
+  <g id="Group_17524" data-name="Group 17524" transform="translate(-22.187 -21.918)">
+    <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(27.187 26.918)" fill="#9ee1a3" stroke="#f0fcf1" stroke-width="5">
+      <rect width="42" height="43" rx="21" stroke="none"/>
+      <rect x="-2.5" y="-2.5" width="47" height="48" rx="23.5" fill="none"/>
+    </g>
+    <g id="vuesax_outline_story" data-name="vuesax/outline/story" transform="translate(36.267 36.267)">
+      <g id="story">
+        <path id="Vector" d="M7.124,14.25a7.126,7.126,0,1,1,5.039-2.087A7.1,7.1,0,0,1,7.124,14.25Zm0-12.725a5.6,5.6,0,1,0,3.96,1.639A5.589,5.589,0,0,0,7.124,1.525Z" transform="translate(5.093 5.469)" fill="#3fac47"/>
+        <path id="Vector-2" data-name="Vector" d="M7.129,12.242a.935.935,0,0,1-.285-.051A10.828,10.828,0,0,1,1.459,7.519,10.79,10.79,0,0,1,.095.667.765.765,0,1,1,1.611.861,9.339,9.339,0,0,0,2.782,6.745,9.268,9.268,0,0,0,7.4,10.756a.778.778,0,0,1,.428,1A.753.753,0,0,1,7.129,12.242Z" transform="translate(1.27 10.551)" fill="#3fac47"/>
+        <path id="Vector-3" data-name="Vector" d="M.766,3.685a.766.766,0,0,1-.6-.3A.752.752,0,0,1,.3,2.321,10.905,10.905,0,0,1,13.644,2.24a.763.763,0,1,1-.926,1.211,9.392,9.392,0,0,0-11.483.071A.749.749,0,0,1,.766,3.685Z" transform="translate(5.19 1.639)" fill="#3fac47"/>
+        <path id="Vector-4" data-name="Vector" d="M.766,12.232a.765.765,0,0,1-.285-1.476A9.317,9.317,0,0,0,5.1,6.745,9.207,9.207,0,0,0,6.274.861.765.765,0,1,1,7.791.667,10.87,10.87,0,0,1,6.426,7.519a10.834,10.834,0,0,1-5.385,4.673A1.115,1.115,0,0,1,.766,12.232Z" transform="translate(15.268 10.561)" fill="#3fac47"/>
+        <path id="Vector-5" data-name="Vector" d="M0,0H24.433V24.433H0Z" transform="translate(24.433 24.433) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

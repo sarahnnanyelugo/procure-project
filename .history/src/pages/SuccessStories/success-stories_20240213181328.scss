@@ -1,0 +1,75 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.nav-displayer {
+  background: transparent linear-gradient(180deg, #141212 0%, #14121200 100%) 0%
+    0% no-repeat padding-box;
+}
+.stories-div {
+  p {
+    font-family: SoraR;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .description {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 22px #1412120d;
+    border-radius: 8px;
+    padding: 20px;
+    height: 272px;
+  }
+  strong {
+    color: $appcolor;
+    font-size: 20px;
+    font-family: SoraM;
+  }
+  h5 {
+    font-family: SoraM;
+    margin-bottom: 15px;
+  }
+  h4 {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+  small {
+    color: #6b6060;
+    font-family: SoraR;
+    margin-top: 30px;
+  }
+  h6 {
+    font-family: SoraM;
+
+    font-size: 16px;
+  }
+}
+.profile-info {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bread {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  .b1 {
+    color: #524a4a;
+    margin-right: 10px;
+  }
+  .b2 {
+    color: #141212;
+    margin-left: 10px;
+  }
+}
+.pre-info {
+  small {
+    font-size: 12px;
+    color: #6b6060;
+    font-family: SoraR;
+  }
+  h6 {
+    margin-bottom: 0;
+  }
+  img {
+    margin-right: 6px;
+  }
+}

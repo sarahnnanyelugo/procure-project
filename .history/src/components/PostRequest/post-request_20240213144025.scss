@@ -1,0 +1,29 @@
+.post-request-body {
+  h3 {
+    color: #590700;
+    font-size: 40px;
+  }
+  p {
+    font-family: SoraR;
+    font-size: 16px;
+  }
+  textarea {
+    width: 100%;
+    border: solid 1px #bfbfbf;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-family: SoraR;
+    min-height: 150px;
+  }
+  .audio-record {
+    border: solid 1px #bfbfbf;
+    border-radius: 10px;
+    padding: 10px 30px;
+  }
+}
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
