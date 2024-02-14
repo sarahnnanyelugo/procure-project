@@ -1,0 +1,44 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.featured-stories-div {
+  background: url("../../assets/images/storybg.png");
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 40px;
+  margin-top: -100px;
+  position: relative;
+  z-index: -1;
+  h6 {
+    color: #b30e00;
+    margin-bottom: 20px;
+    margin-top: 120px;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 75px;
+  }
+}
+.category-section {
+  h6 {
+    font-size: 40px;
+    font-family: SoraM;
+    margin-bottom: 40px;
+  }
+  .cat-label {
+    font-size: 16px;
+    font-family: SoraR;
+    color: #141212;
+    margin-left: 20px;
+  }
+  hr {
+    width: 60%;
+  }
+  input {
+    border: 1px solid red !important;
+    border-radius: 4px;
+    width: 27px;
+    height: 27px;
+    margin-top: 20px !important;
+  }
+}

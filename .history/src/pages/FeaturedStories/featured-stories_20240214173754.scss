@@ -1,0 +1,18 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.featured-stories-div {
+  background: url("../../assets/images/story-bg.png");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  h6 {
+    color: $appcolor;
+    margin-bottom: 50px;
+    margin-top: 80px;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 65px;
+  }
+}
