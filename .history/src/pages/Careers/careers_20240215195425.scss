@@ -1,0 +1,53 @@
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: transparent linear-gradient(255deg, #ffffff00 0%, #000000d3 100%)
+    0% 0% no-repeat; /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  opacity: 1;
+  color: white;
+  top: 0;
+  padding-top: 10px;
+  height: 112%;
+  @media screen and (max-width: 620px) {
+    height: 650px;
+    transform: translateX(0%) translateY(0%);
+    top: 0;
+  }
+  h1 {
+    font-size: 70px;
+
+    @media screen and (max-width: 620px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  p {
+    font-family: SoraR;
+  }
+}
+.prerks-div {
+  height: 1077px;
+  background: transparent
+    radial-gradient(
+      closest-side at 50% 50%,
+      #fff0f0 0%,
+      #fdf2f0 65%,
+      #faf5f1 100%
+    )
+    0% 0% no-repeat padding-box;
+  .perks {
+    height: 303px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 35px 15px;
+    backdrop-filter: blur(34px);
+    -webkit-backdrop-filter: blur(34px);
+    h5 {
+      font-size: 20px;
+      color: #950c00;
+      margin-bottom: 20px;
+    }
+  }
+}

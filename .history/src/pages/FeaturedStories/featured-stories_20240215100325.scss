@@ -1,0 +1,128 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.featured-stories-div {
+  background: url("../../assets/images/storybg.png");
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 40px;
+  margin-top: -100px;
+  position: relative;
+  z-index: -1;
+  h6 {
+    color: #b30e00;
+    margin-bottom: 20px;
+    margin-top: 120px;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 75px;
+  }
+}
+.category-section {
+  .check-options {
+    border-right: solid 1px rgb(222, 218, 218);
+    background: #fff;
+  }
+
+  h6 {
+    font-size: 20px;
+    font-family: SoraM;
+    margin-bottom: 40px;
+  }
+  .cat-label {
+    font-size: 16px;
+    font-family: SoraR;
+    color: #141212;
+    margin-left: 20px;
+  }
+  hr {
+    border: solid 1px rgb(222, 218, 218) !important;
+    // width: 70%;
+  }
+  input [type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0.1rem;
+    border: 0.25rem solid green;
+    border-radius: 0.5rem;
+  }
+  input[type="checkbox"]::before {
+    content: "";
+    width: 1.4rem;
+    height: 1.4rem;
+    clip-path: polygon(
+      20% 0%,
+      0% 20%,
+      30% 50%,
+      0% 80%,
+      20% 100%,
+      50% 70%,
+      80% 100%,
+      100% 80%,
+      70% 50%,
+      100% 20%,
+      80% 0%,
+      50% 30%
+    );
+    transform: scale(0);
+    background-color: green;
+  }
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+
+  .catt-div {
+    padding-left: 40px;
+  }
+}
+.category-component {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 22px #1412120d;
+  border-radius: 8px;
+  height: 447px;
+  small {
+    font-size: 10px;
+    color: #6b6060;
+    font-family: SoraR;
+  }
+  p {
+    color: #141212;
+    font-family: SoraR;
+    font-size: 16px;
+    // margin-top: 10px;
+  }
+  h6 {
+    color: #141212;
+    font-family: SoraM;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  h5 {
+    color: #141212;
+    font-family: SoraM;
+    font-size: 14px;
+    margin-bottom: -10px;
+    // flex-grow: 1;
+  }
+  .profile-img {
+    margin-right: 10px;
+  }
+}
+
+.zoom:hover {
+  .main-img {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+}
+.main-img {
+  transition: transform 0.5s;
+}
