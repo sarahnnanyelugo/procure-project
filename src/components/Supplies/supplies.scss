@@ -1,0 +1,15 @@
+.supplies-div {
+  img {
+    height: 126px;
+    width: 126px;
+    @media screen and (max-width: 620px) {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  h6 {
+    font-family: SoraM;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

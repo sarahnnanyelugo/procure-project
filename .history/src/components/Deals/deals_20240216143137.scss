@@ -1,0 +1,40 @@
+.deals-div {
+  height: 294px;
+  padding: 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001c;
+  border-radius: 8px;
+  h6 {
+    font-family: SoraSB;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
+  small {
+    font-size: 9px;
+    font-family: SoraR;
+    color: #847777;
+    span {
+      font-size: 13px;
+      color: #ee1300;
+      font-family: SoraSB;
+    }
+    .discount {
+      font-size: 12px;
+      color: #a69c9c;
+      text-decoration: line-through;
+    }
+  }
+  p {
+    font-size: 9px;
+    text-decoration: underline;
+  }
+}
+.badge-holder {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  height: 56px;
+  width: 51px;
+}
