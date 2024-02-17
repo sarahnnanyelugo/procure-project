@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import { Badge, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -179,7 +179,7 @@ export const BrowseSupplies = () => {
           </div>
           <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
             {" "}
-            {products.map((data, index) => (
+            {state.list5.map((data, index) => (
               <RatedSuppliers data={data} />
             ))}
           </div>

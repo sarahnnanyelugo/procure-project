@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import { Badge, Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { BudgetProducts } from "../../components/BudgetProducts/BudgetProducts";
 import { Deals } from "../../components/Deals/Deals";
 import MoreDeals from "../../components/MoreDeals/MoreDeals";
@@ -20,8 +19,6 @@ import {
 } from "../../TestData";
 import "./browse-supplies.scss";
 export const BrowseSupplies = () => {
-  const [products, setProductsData] = useState([]);
-
   const [state, setState] = useState({
     query: "",
     list: topCategories,
@@ -32,12 +29,6 @@ export const BrowseSupplies = () => {
     list6: budgetProducts,
     list7: recommendedProducts,
   });
-  useEffect(() => {
-    if (!state.list || !Array.isArray(state.list)) {
-      return <p>No data available</p>;
-    }
-    setProductsData(state.list5.slice(0, 4));
-  }, []);
   return (
     <>
       {" "}
@@ -171,15 +162,12 @@ export const BrowseSupplies = () => {
         </div>
         <div className="mt col-md-10 offset-md-1">
           {" "}
-          <div className="col-md-7 offset-md-5 flexy flexym">
-            <h3 style={{ flexGrow: 1 }}>Top rated Suppliers</h3>
-            <Link to={"/all-supplies"} className="all-supplies-link">
-              View all supplies
-            </Link>
+          <div className="col-md-7 offset-md-5">
+            <h3>Top rated Suppliers</h3>
           </div>
           <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
             {" "}
-            {products.map((data, index) => (
+            {state.list5.map((data, index) => (
               <RatedSuppliers data={data} />
             ))}
           </div>

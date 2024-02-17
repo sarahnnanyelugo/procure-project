@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import { Badge, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";

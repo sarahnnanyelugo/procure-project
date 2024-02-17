@@ -72,9 +72,9 @@ import TRS39 from "../assets/images/trs39.png";
 import TRS40 from "../assets/images/trs40.png";
 import TRS41 from "../assets/images/trs41.png";
 import TRS42 from "../assets/images/trs42.png";
-import TRS43 from "../assets/images/trs43.png";
-import TRS44 from "../assets/images/trs44.png";
-import TRS45 from "../assets/images/trs45.png";
+import TRS44 from "../assets/images/trs43.png";
+import TRS45 from "../assets/images/trs44.png";
+import TRS40 from "../assets/images/trs45.png";
 import BDG1 from "../assets/images/bdg7.png";
 import BDG2 from "../assets/images/bdg8.png";
 import BDG3 from "../assets/images/bdg9.png";
@@ -370,73 +370,17 @@ export const topRatedSuppliers = [
     star: Star,
   },
   {
-    productImg1: TRS21,
-    productImg2: TRS22,
-    productImg3: TRS23,
-    productImg4: TRS24,
-    productImg5: TRS25,
+    productImg1: TRS16,
+    productImg2: TRS17,
+    productImg3: TRS18,
+    productImg4: TRS19,
+    productImg5: TRS20,
     productCategory: "Rubber & Plastics",
     company: "TechGadgets Ltd",
     productQty: 250,
     rating: 4.9,
     followers: "12k",
-    id: 5,
-    star: Star,
-  },
-  {
-    productImg1: TRS26,
-    productImg2: TRS27,
-    productImg3: TRS28,
-    productImg4: TRS29,
-    productImg5: TRS30,
-    productCategory: "Rubber & Plastics",
-    company: "TechGadgets Ltd",
-    productQty: 250,
-    rating: 4.9,
-    followers: "12k",
-    id: 6,
-    star: Star,
-  },
-  {
-    productImg1: TRS31,
-    productImg2: TRS32,
-    productImg3: TRS33,
-    productImg4: TRS34,
-    productImg5: TRS35,
-    productCategory: "Rubber & Plastics",
-    company: "TechGadgets Ltd",
-    productQty: 250,
-    rating: 4.9,
-    followers: "12k",
-    id: 7,
-    star: Star,
-  },
-  {
-    productImg1: TRS36,
-    productImg2: TRS37,
-    productImg3: TRS38,
-    productImg4: TRS39,
-    productImg5: TRS40,
-    productCategory: "Rubber & Plastics",
-    company: "TechGadgets Ltd",
-    productQty: 250,
-    rating: 4.9,
-    followers: "12k",
-    id: 8,
-    star: Star,
-  },
-  {
-    productImg1: TRS41,
-    productImg2: TRS42,
-    productImg3: TRS43,
-    productImg4: TRS44,
-    productImg5: TRS45,
-    productCategory: "Rubber & Plastics",
-    company: "TechGadgets Ltd",
-    productQty: 250,
-    rating: 4.9,
-    followers: "12k",
-    id: 9,
+    id: 4,
     star: Star,
   },
 ];

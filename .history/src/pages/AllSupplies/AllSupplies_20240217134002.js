@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import { Badge, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -20,8 +20,6 @@ import {
 } from "../../TestData";
 import "./browse-supplies.scss";
 export const BrowseSupplies = () => {
-  const [products, setProductsData] = useState([]);
-
   const [state, setState] = useState({
     query: "",
     list: topCategories,
@@ -32,12 +30,6 @@ export const BrowseSupplies = () => {
     list6: budgetProducts,
     list7: recommendedProducts,
   });
-  useEffect(() => {
-    if (!state.list || !Array.isArray(state.list)) {
-      return <p>No data available</p>;
-    }
-    setProductsData(state.list5.slice(0, 4));
-  }, []);
   return (
     <>
       {" "}
@@ -179,7 +171,7 @@ export const BrowseSupplies = () => {
           </div>
           <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
             {" "}
-            {products.map((data, index) => (
+            {state.list5.map((data, index) => (
               <RatedSuppliers data={data} />
             ))}
           </div>

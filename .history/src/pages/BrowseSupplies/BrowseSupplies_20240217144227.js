@@ -177,12 +177,12 @@ export const BrowseSupplies = () => {
               View all supplies
             </Link>
           </div>
-          <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
+          {/* <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
             {" "}
             {products.map((data, index) => (
               <RatedSuppliers data={data} />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="budget-div ">

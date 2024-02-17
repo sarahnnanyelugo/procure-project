@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import { Badge, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ export const BrowseSupplies = () => {
     if (!state.list || !Array.isArray(state.list)) {
       return <p>No data available</p>;
     }
-    setProductsData(state.list5.slice(0, 4));
+    setProductsData(state.list5.slice(0, 5));
   }, []);
   return (
     <>
@@ -179,7 +179,7 @@ export const BrowseSupplies = () => {
           </div>
           <div className="row row-cols-2 row-cols-lg-4 g-2 g-lg-4">
             {" "}
-            {products.map((data, index) => (
+            {state.list5.map((data, index) => (
               <RatedSuppliers data={data} />
             ))}
           </div>

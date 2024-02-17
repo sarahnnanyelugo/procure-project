@@ -127,25 +127,12 @@
     height: fit-content;
   }
   button {
-    margin-top: 80px;
+    margin-top: 60px;
     border: solid 1px #ff3c2b;
     border-radius: 40px;
     color: #ff3c2b;
     font-family: SoraM;
     font-size: 14px;
-    padding: 10px 30px;
-    &:hover {
-      color: #fff;
-      background: #ff3c2b;
-    }
-  }
-}
-.all-supplies-link {
-  color: #524a4a;
-  text-decoration: none;
-  font-family: SoraM;
-  font-size: 14px;
-  &:hover {
-    text-decoration: underline;
+    padding: 10px 20px;
   }
 }
