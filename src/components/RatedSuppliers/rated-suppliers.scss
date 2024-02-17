@@ -1,0 +1,36 @@
+.rated-suppliers-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001c;
+  border-radius: 8px;
+  height: 319px;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+    margin-top: 20px;
+  }
+  .inner-cont {
+    padding: 7px 10px;
+    p {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+    span {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 7px;
+    }
+    small {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 10px;
+    }
+    h6 {
+      color: #141212;
+      font-family: SoraR;
+      font-size: 10px;
+      margin-top: 5px;
+      text-decoration: underline;
+    }
+  }
+}

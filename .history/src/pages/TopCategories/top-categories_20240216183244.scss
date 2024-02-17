@@ -1,0 +1,49 @@
+.top-categories-div {
+  .deal-p {
+    font-family: SoraR;
+    margin-left: 10px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+    @media screen and (max-width: 620px) {
+      display: none;
+    }
+  }
+  .parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 21px;
+    @media screen and (min-width: 620px) {
+      display: none;
+    }
+  }
+}
+.discount-div {
+  height: 606px;
+  background: #1ccab8 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  padding: 40px 30px;
+  .discount-inner {
+    height: 210px;
+    padding: 30px 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    hr {
+      border: 1px dashed grey;
+    }
+    h1 {
+      font-size: 50px;
+      sub {
+        font-size: 14px;
+      }
+      sup {
+        font-size: 18px;
+      }
+    }
+  }
+}

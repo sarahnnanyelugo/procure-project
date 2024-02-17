@@ -1,0 +1,23 @@
+.recommended-produc {
+  height: 305px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  padding: 20px;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+  }
+  p {
+    font-family: SoraR;
+    font-size: 14px;
+  }
+  h6 {
+    font-family: SoraSB;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  small {
+    font-family: SoraR;
+    font-size: 9px;
+  }
+}

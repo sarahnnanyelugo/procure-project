@@ -1,0 +1,31 @@
+.rated-suppliers-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001c;
+  border-radius: 8px;
+  height: 319px;
+  .inner-cont {
+    padding: 10px 20px;
+    p {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    span {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 7px;
+    }
+    small {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 10px;
+    }
+    h6 {
+      color: #6b6060;
+      font-family: SoraR;
+      font-size: 10px;
+      text-decoration: underline;
+    }
+  }
+}

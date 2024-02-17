@@ -1,0 +1,16 @@
+.rated-suppliers-div {
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 14px;
+    grid-row-gap: 21px;
+  }
+
+  .div1 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+}

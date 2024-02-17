@@ -1,0 +1,33 @@
+.rated-suppliers-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001c;
+  border-radius: 8px;
+  .parentA {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 14px;
+    grid-row-gap: 21px;
+  }
+
+  .div1 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .parentB {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 14px;
+    grid-row-gap: 21px;
+  }
+
+  .divB {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .divC {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+}
