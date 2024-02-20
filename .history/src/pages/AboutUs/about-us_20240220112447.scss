@@ -1,0 +1,94 @@
+.nav-displayer2 {
+  background: #141212;
+}
+.about-banner {
+  background: #141212;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  .video-div {
+    height: 100%;
+    border-radius: 20px;
+  }
+  .first-paragrapgh p {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-family: SoraSB;
+    margin-top: 150px;
+  }
+  .nd-paragrapgh {
+    color: #fff;
+    font-size: 16px;
+    font-family: SoraR;
+    line-height: 35px;
+    hr {
+      border: solid 2px grey !important;
+    }
+  }
+  .firstP {
+    font-size: 24px;
+    font-family: SoraSB;
+  }
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  background: transparent linear-gradient(255deg, #ffffff00 0%, #000000d3 100%)
+    0% 0% no-repeat; /* Black see-through */
+  color: #f1f1f1;
+  //   width: 100%;
+  opacity: 1;
+  color: white;
+  top: 19%;
+  // padding-top: 10px;
+  text-align: center;
+  border-radius: 40px;
+  height: 75%;
+
+  p {
+    text-align: center;
+  }
+  @media screen and (max-width: 620px) {
+    height: 650px;
+    transform: translateX(0%) translateY(0%);
+    top: 0;
+  }
+  h1 {
+    font-size: 70px;
+    line-height: 80px;
+    @media screen and (max-width: 620px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+}
+.vid-3 {
+  border-radius: 40px;
+}
+.delivery-steps {
+  height: 988px;
+  padding-top: 100px;
+  background: transparent
+    radial-gradient(
+      closest-side at 50% 50%,
+      #fff0f0 0%,
+      #fdf2f0 65%,
+      #faf5f1 100%
+    )
+    0% 0% no-repeat padding-box;
+  h5 {
+    margin-top: 100px;
+    color: #950c00;
+    font-size: 24px;
+    font-family: SoraSB;
+    margin-bottom: 50px;
+  }
+  p {
+    font-family: SoraSB;
+    color: #141212;
+    font-size: 42px;
+    line-height: 55px;
+    align-content: justify;
+  }
+}
