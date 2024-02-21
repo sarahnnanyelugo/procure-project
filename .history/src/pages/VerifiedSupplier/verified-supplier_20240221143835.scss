@@ -1,0 +1,104 @@
+.verified-overlay {
+  h6 {
+    color: #ff9e95;
+  }
+}
+.colored {
+  height: 563px;
+  padding: 180px 175px 180px 100px;
+  background: transparent
+    radial-gradient(
+      closest-side at 50% 50%,
+      #fff0f0 0%,
+      #fdf2f0 65%,
+      #faf5f1 100%
+    )
+    0% 0% no-repeat padding-box;
+  p {
+    font-size: 18px;
+    font-family: SoraR;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+    height: fit-content;
+  }
+}
+.plain {
+  padding-top: 80px;
+  height: 563px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+    height: fit-content;
+  }
+}
+.colored2 {
+  height: 563px;
+  padding: 180px 205px 180px 50px;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  p {
+    font-size: 18px;
+    font-family: SoraR;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+    height: fit-content;
+  }
+}
+.plain2 {
+  padding-top: 80px;
+  height: 563px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+    height: fit-content;
+  }
+}
+.front-line-title {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  h1 {
+    font-size: 52px;
+  }
+  p {
+    font-size: 18px;
+    font-family: SoraR;
+  }
+}
+
+.front-line-list {
+  .circle {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: SoraSB;
+    margin-bottom: 15px;
+  }
+  p {
+    font-size: 18px;
+    font-family: SoraR;
+  }
+}
+.how-to-apply {
+  background: #950c00;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 70px;
+  p {
+    font-family: SoraR;
+  }
+  .apply-steps {
+    padding: 40px;
+  }
+}

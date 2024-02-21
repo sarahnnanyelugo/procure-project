@@ -1,0 +1,121 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.dasboard-display-carousel {
+  background: #faf5f1;
+
+  .carousel {
+    position: relative;
+    z-index: 0;
+  }
+  .wing-imgs {
+    max-height: 480px;
+    width: 220px;
+    overflow: hidden;
+    margin-top: 30px;
+
+    img {
+      margin-left: -600px;
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .center-dashboard {
+    margin-left: 130px;
+    @media screen and (max-width: 620px) {
+      margin-left: 0px;
+    }
+  }
+  .wing-imgs2 {
+    max-height: 480px;
+    width: 280px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 130px;
+    img {
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+
+    padding-top: 0px !important;
+
+    h2 {
+      margin-top: 140px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .imgCaro {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-control-next-icon {
+    // background-image: url("../../../assets/images/right.png");
+  }
+  .carousel-control-prev-icon {
+    // background-image: url("../../../assets/images/left.png");
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-control-prev {
+    left: 10% !important;
+  }
+  .carousel-control-next {
+    right: 10% !important;
+  }
+}
+
+.emptied {
+  margin: 0 !important;
+
+  height: 100px;
+  .inner {
+    // background-image: url("../../../assets/images/dashboard-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .innerW {
+    background: rgb(238, 230, 252);
+    background: linear-gradient(
+      90deg,
+      rgba(238, 230, 252, 1) 10%,
+      rgba(255, 255, 255, 1) 68%
+    );
+  }
+}
+
+.emptied2 {
+  margin-top: -10px !important;
+
+  height: 100px;
+  .inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background-image: url("../../../assets/images/dashboard-bg.svg");
+  }
+
+  .innerW2 {
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 24%,
+      rgba(238, 230, 252, 1) 52%
+    );
+  }
+}

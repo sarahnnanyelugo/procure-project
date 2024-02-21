@@ -1,0 +1,22 @@
+.verified-overlay {
+  h6 {
+    color: #ff9e95;
+  }
+}
+.colored {
+  height: 563px;
+  padding: 150px 155px 180px 165px;
+  background: transparent
+    radial-gradient(
+      closest-side at 50% 50%,
+      #fff0f0 0%,
+      #fdf2f0 65%,
+      #faf5f1 100%
+    )
+    0% 0% no-repeat padding-box;
+}
+.plain {
+  height: 563px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
