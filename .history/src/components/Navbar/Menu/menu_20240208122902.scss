@@ -1,0 +1,14 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.offcanvas {
+  height: 50% !important;
+}
+.canvas-trigger {
+  cursor: pointer;
+}
+.offcanvas-body {
+  @media screen and (max-width: 620px) {
+    padding: 10px 0;
+  }
+}

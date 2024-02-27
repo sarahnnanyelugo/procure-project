@@ -1,0 +1,17 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.canvas-trigger {
+  cursor: pointer;
+}
+
+// .menu-offcanvas {
+.offcanvas {
+  height: 50% !important;
+}
+.offcanvas-body {
+  @media screen and (max-width: 620px) {
+    padding: 10px 0;
+  }
+}
+// }
