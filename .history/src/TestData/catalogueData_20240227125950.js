@@ -1,103 +1,75 @@
 import Img9 from "../assets/images/bs9.png";
-import Cat1 from "../assets/images/cat1.png";
-import Cat2 from "../assets/images/cat2.png";
-import Cat3 from "../assets/images/cat3.png";
-import Cat4 from "../assets/images/cat4.png";
-import Cat5 from "../assets/images/cat5.png";
-import Cat6 from "../assets/images/cat6.png";
-import Cat7 from "../assets/images/cat11.png";
-import Cat8 from "../assets/images/cat7.png";
-import Cat9 from "../assets/images/cat8.png";
-import Cat10 from "../assets/images/cat9.png";
-import Cat11 from "../assets/images/cat10.png";
-import Cat12 from "../assets/images/cat12.png";
-import Cat13 from "../assets/images/cat13.png";
-import Cat14 from "../assets/images/cat14.png";
 
 export const productCategories = [
   {
     id: 1,
     supplyName: "Lights & Lighting",
     parent_id: 0,
-    supply: Cat1,
   },
   {
     id: 2,
     supplyName: "Home appliances",
     parent_id: 0,
-    supply: Cat2,
   },
   {
     id: 3,
     supplyName: "Construction",
     parent_id: 0,
-    supply: Cat3,
   },
   {
     id: 4,
     supplyName: "School supplies",
     parent_id: 0,
-    supply: Cat4,
   },
   {
     id: 5,
     supplyName: "Real Estate",
     parent_id: 0,
-    supply: Cat5,
   },
   {
     id: 6,
     supplyName: "Office Supplies",
     parent_id: 0,
-    supply: Cat6,
   },
   {
     id: 7,
     supplyName: "Car parts",
     parent_id: 0,
-    supply: Cat7,
   },
   {
     id: 8,
     supplyName: "Shoes",
     parent_id: 0,
-    supply: Cat8,
   },
   {
     id: 9,
     supplyName: "Gifts & Crafts",
     parent_id: 0,
-    supply: Cat9,
   },
   {
     id: 10,
     supplyName: "Healthcare",
     parent_id: 0,
-    supply: Cat10,
   },
   {
     id: 11,
     supplyName: "Food",
     parent_id: 0,
-    supply: Cat11,
   },
   {
     id: 12,
     supplyName: "Beauty",
     parent_id: 0,
-    supply: Cat12,
   },
   {
     id: 13,
     supplyName: "Sports",
     parent_id: 0,
-    supply: Cat13,
   },
   {
     id: 14,
     supplyName: "Funiture",
     parent_id: 0,
-    supply: Cat14,
   },
   {
     id: 15,
@@ -796,7 +768,7 @@ export const productCategories = [
     parent_id: 14,
   },
 ];
-export const products = [
+const products = [
   {
     id: 1,
     name: "40 leaves exercise book",

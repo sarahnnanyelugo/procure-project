@@ -9,14 +9,13 @@ import Icon from "../../assets/images/sort.svg";
 import { useParams } from "react-router-dom";
 import "./searched-results.scss";
 import { ResultDetails } from "./ResultDetails";
-import { productCategories, products } from "../../TestData";
 export default function SearchedResults(data) {
-  const { cat_id } = useParams();
+  const { blog_id } = useParams();
   const [id, setId] = useState(0);
   useEffect(() => {
-    setId(cat_id);
-    console.log(cat_id);
-  }, [cat_id]);
+    setId(blog_id);
+    console.log(blog_id);
+  }, [blog_id]);
   const items = [
     "Item 1",
     "Item 2",
@@ -27,7 +26,6 @@ export default function SearchedResults(data) {
     "item7",
     "item8",
   ];
-
   const [isListView, setIsListView] = useState(true);
   const switchToListView = () => {
     setIsListView(true);
@@ -38,8 +36,6 @@ export default function SearchedResults(data) {
   const [state, setState] = useState({
     query: "",
     list: firstSearch,
-    listCat: productCategories,
-    listProducts: products,
   });
   // const [view, setView] = useState(false);
   // const toggleHandler = (e) => {

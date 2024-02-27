@@ -27,7 +27,6 @@ export default function SearchedResults(data) {
     "item7",
     "item8",
   ];
-
   const [isListView, setIsListView] = useState(true);
   const switchToListView = () => {
     setIsListView(true);
@@ -38,8 +37,6 @@ export default function SearchedResults(data) {
   const [state, setState] = useState({
     query: "",
     list: firstSearch,
-    listCat: productCategories,
-    listProducts: products,
   });
   // const [view, setView] = useState(false);
   // const toggleHandler = (e) => {

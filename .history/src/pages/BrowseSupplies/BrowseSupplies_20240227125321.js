@@ -46,7 +46,7 @@ export const BrowseSupplies = () => {
     );
 
     console.log(topCat);
-    setState({ ...state, list: topCat });
+    setState(...state, { list: topCat });
   }, []);
   return (
     <>

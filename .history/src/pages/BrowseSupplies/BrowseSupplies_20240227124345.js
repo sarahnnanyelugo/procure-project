@@ -25,8 +25,7 @@ export const BrowseSupplies = () => {
 
   const [state, setState] = useState({
     query: "",
-    // list: topCategories,
-    list: [],
+    list: topCategories,
     list2: todaysDeals,
     list3: trendingProducts,
     list4: weeklyDeals,
@@ -39,14 +38,6 @@ export const BrowseSupplies = () => {
       return <p>No data available</p>;
     }
     setProductsData(state.list5.slice(0, 4));
-  }, []);
-  useEffect(() => {
-    const topCat = productCategories.filter(
-      (category) => category.parent_id === 0
-    );
-
-    console.log(topCat);
-    setState({ ...state, list: topCat });
   }, []);
   return (
     <>

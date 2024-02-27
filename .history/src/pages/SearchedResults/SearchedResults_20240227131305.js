@@ -27,7 +27,7 @@ export default function SearchedResults(data) {
     "item7",
     "item8",
   ];
-
+  
   const [isListView, setIsListView] = useState(true);
   const switchToListView = () => {
     setIsListView(true);

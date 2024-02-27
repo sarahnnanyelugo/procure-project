@@ -41,12 +41,10 @@ export const BrowseSupplies = () => {
     setProductsData(state.list5.slice(0, 4));
   }, []);
   useEffect(() => {
-    const topCat = productCategories.filter(
-      (category) => category.parent_id === 0
-    );
-
-    console.log(topCat);
-    setState({ ...state, list: topCat });
+    if (!state.list || !Array.isArray(state.list)) {
+      return <p>No data available</p>;
+    }
+    setProductsData(state.list5.slice(0, 4));
   }, []);
   return (
     <>

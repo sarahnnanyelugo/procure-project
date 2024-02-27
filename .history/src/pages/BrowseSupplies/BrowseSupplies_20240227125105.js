@@ -44,9 +44,6 @@ export const BrowseSupplies = () => {
     const topCat = productCategories.filter(
       (category) => category.parent_id === 0
     );
-
-    console.log(topCat);
-    setState({ ...state, list: topCat });
   }, []);
   return (
     <>
