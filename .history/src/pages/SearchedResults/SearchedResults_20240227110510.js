@@ -21,11 +21,8 @@ export default function SearchedResults(data) {
     "item8",
   ];
   const [isListView, setIsListView] = useState(true);
-  const switchToListView = () => {
-    setIsListView(true);
-  };
-  const switchToGridView = () => {
-    setIsListView(false);
+  const toggleView = () => {
+    setIsListView((prevState) => !prevState); // Toggle the view mode
   };
   const [state, setState] = useState({
     query: "",
@@ -72,14 +69,14 @@ export default function SearchedResults(data) {
               <button
                 size="100%"
                 style={{ color: "orange", margin: "0 10px 10px 10px" }}
-                onClick={switchToListView}
+                // onClick={toggleHandler1}
               >
                 List
               </button>
               <button
                 size="100%"
                 style={{ color: "orange", margin: "0 10px 10px 10px" }}
-                onClick={switchToGridView}
+                // onClick={toggleHandler}
               >
                 Grid
               </button>
@@ -94,22 +91,20 @@ export default function SearchedResults(data) {
               {" "}
               {!view ? <ListView /> : <GridView />}
             </div> */}
-            <div className="col-md-10">
-              {" "}
-              <div
-                id="content"
-                className={isListView ? "list-view" : "grid-view"}
-              >
-                {/* <ResultDetails /> */}
-                {items.map((item, index) => (
-                  <div
-                    key={index}
-                    className={isListView ? "list-item" : "grid-item"}
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
+            <div
+              id="content"
+              className={isListView ? "list-view" : "grid-view"}
+            >
+              {/* <ResultDetails /> */}
+              {items.map((item, index) => (
+                <div
+                  key={index}
+                  className={isListView ? "list-item" : "grid-item"}
+                >
+                  {item}
+                </div>
+              ))}
+              <button onClick={toggleView}>Toggle View</button>
             </div>
 
             <div className="col-md-2 mt3" style={{ paddingLeft: "10px" }}>

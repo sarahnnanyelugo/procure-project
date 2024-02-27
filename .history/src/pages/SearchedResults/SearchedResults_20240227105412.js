@@ -10,22 +10,10 @@ import Icon from "../../assets/images/sort.svg";
 import "./searched-results.scss";
 import { ResultDetails } from "./ResultDetails";
 export default function SearchedResults(data) {
-  const items = [
-    "Item 1",
-    "Item 2",
-    "Item 3",
-    "Item 4",
-    "Item 5",
-    "item6",
-    "item7",
-    "item8",
-  ];
+  const items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
   const [isListView, setIsListView] = useState(true);
-  const switchToListView = () => {
-    setIsListView(true);
-  };
-  const switchToGridView = () => {
-    setIsListView(false);
+  const toggleView = () => {
+    setIsListView((prevState) => !prevState); // Toggle the view mode
   };
   const [state, setState] = useState({
     query: "",
@@ -72,14 +60,14 @@ export default function SearchedResults(data) {
               <button
                 size="100%"
                 style={{ color: "orange", margin: "0 10px 10px 10px" }}
-                onClick={switchToListView}
+                onClick={toggleHandler1}
               >
                 List
               </button>
               <button
                 size="100%"
                 style={{ color: "orange", margin: "0 10px 10px 10px" }}
-                onClick={switchToGridView}
+                onClick={toggleHandler}
               >
                 Grid
               </button>
@@ -94,24 +82,12 @@ export default function SearchedResults(data) {
               {" "}
               {!view ? <ListView /> : <GridView />}
             </div> */}
-            <div className="col-md-10">
-              {" "}
-              <div
-                id="content"
-                className={isListView ? "list-view" : "grid-view"}
-              >
-                {/* <ResultDetails /> */}
-                {items.map((item, index) => (
-                  <div
-                    key={index}
-                    className={isListView ? "list-item" : "grid-item"}
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
+            <div
+              id="content"
+              className={isListView ? "list-view" : "grid-view"}
+            >
+              <ResultDetails />
             </div>
-
             <div className="col-md-2 mt3" style={{ paddingLeft: "10px" }}>
               <h6>Top Suppliers</h6>
             </div>

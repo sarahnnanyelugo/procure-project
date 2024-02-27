@@ -72,14 +72,14 @@ export default function SearchedResults(data) {
               <button
                 size="100%"
                 style={{ color: "orange", margin: "0 10px 10px 10px" }}
-                onClick={switchToListView}
+                // onClick={toggleHandler1}
               >
                 List
               </button>
               <button
                 size="100%"
                 style={{ color: "orange", margin: "0 10px 10px 10px" }}
-                onClick={switchToGridView}
+                // onClick={toggleHandler}
               >
                 Grid
               </button>
@@ -109,6 +109,7 @@ export default function SearchedResults(data) {
                     {item}
                   </div>
                 ))}
+                <button onClick={toggleView}>Toggle View</button>
               </div>
             </div>
 

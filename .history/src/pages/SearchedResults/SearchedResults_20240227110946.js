@@ -109,6 +109,7 @@ export default function SearchedResults(data) {
                     {item}
                   </div>
                 ))}
+                <button onClick={toggleView}>Toggle View</button>
               </div>
             </div>
 
