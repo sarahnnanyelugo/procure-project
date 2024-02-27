@@ -105,8 +105,8 @@ export default function SearchedResults(data) {
                     key={index}
                     className={isListView ? "list-item" : "grid-item"}
                   >
-                    {/* {item} */}
-                    <ResultDetails />
+                    {item}
+                    {/* <ResultDetails /> */}
                   </div>
                 ))}
               </div>

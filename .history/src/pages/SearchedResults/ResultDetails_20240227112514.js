@@ -39,15 +39,9 @@ export const ResultDetails = ({ data }) => {
             {/* <small>{data.minOrder}</small> */}
             <small>Minimum order: 50 sets</small>
           </div>
-          <div className="col-md-2 colm3  col-3">
-            <center>
-              {" "}
-              <button>Add to cart</button>
-            </center>
-            <center>
-              {" "}
-              <button>Chat now</button>
-            </center>
+          <div className="col-md-2  col-3">
+            <button>Add to cart</button>
+            <button>Chat now</button>
           </div>
         </div>{" "}
       </div>

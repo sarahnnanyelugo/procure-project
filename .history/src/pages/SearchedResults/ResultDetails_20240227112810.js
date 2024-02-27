@@ -40,14 +40,8 @@ export const ResultDetails = ({ data }) => {
             <small>Minimum order: 50 sets</small>
           </div>
           <div className="col-md-2 colm3  col-3">
-            <center>
-              {" "}
-              <button>Add to cart</button>
-            </center>
-            <center>
-              {" "}
-              <button>Chat now</button>
-            </center>
+            <button>Add to cart</button>
+            <button>Chat now</button>
           </div>
         </div>{" "}
       </div>
