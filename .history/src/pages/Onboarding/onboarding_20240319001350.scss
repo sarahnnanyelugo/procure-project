@@ -1,0 +1,34 @@
+.onboarding-bg {
+  background: #514f4f;
+  padding-top: 300px;
+  padding-bottom: 300px;
+
+  .welcome-card {
+    text-align: left;
+    border-radius: 20px;
+    background: #fff;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .welcome-card-inner {
+    background: #ff3c2b;
+    padding-top: 60px;
+    border-radius: 20px;
+    a {
+      color: #fff;
+    }
+  }
+  .welcome-card-footer {
+    padding-top: 30px;
+    padding-left: 30px;
+    h5 {
+      color: #590700;
+      font-size: 26px;
+    }
+    p {
+      font-family: SoraR;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}

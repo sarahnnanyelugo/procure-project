@@ -1,0 +1,47 @@
+.top-part {
+  height: 74px;
+  background: red;
+  padding-top: 15px;
+  padding-left: 10px;
+  a {
+    color: black;
+    text-decoration: none;
+    font-family: SoraM;
+    font-size: 14px;
+    border-radius: 40px;
+    padding: 13px 35px;
+    height: 48px;
+    &:hover {
+      background: #e9e6e6;
+    }
+  }
+}
+.buy-intro {
+  p {
+    font-family: SoraR;
+    color: #6b6060;
+  }
+  small {
+    color: #ff3c2b;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+}
+.first-product-row {
+  .area-div {
+    // background: red;
+
+    margin: 0px 8px;
+  }
+}
+.sec-row {
+  padding-left: 90px;
+}
+.third-row {
+  padding-left: 45px;
+  //   background: red;
+}
+.fourth-row {
+  //   padding-left: 45px;
+  //   background: red;
+}

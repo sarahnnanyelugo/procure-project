@@ -1,0 +1,103 @@
+.transactions-table-container {
+  background: #fff;
+  border-radius: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 60px;
+  h3 {
+    font-size: 12px;
+    color: #969393;
+    font-family: SoraR;
+  }
+  h2 {
+    font-size: 18px;
+
+    font-family: SoraM;
+  }
+  p {
+    font-size: 12px;
+    font-family: SoraR;
+  }
+  a {
+    color: #215995;
+    font-family: SoraR;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .order-status-btn {
+    border: none;
+    font-size: 12px;
+    padding: 7px 25px;
+    margin-left: 30px;
+    border-radius: 70px;
+    font-family: SoraR;
+  }
+  .completed {
+    background: #edf8f0;
+    color: #13b23e;
+  }
+  .pending {
+    background: #fcf9ea;
+    color: #d8910b;
+  }
+  .cancelled {
+    background: #fff5f4;
+    color: #ff3c2b;
+  }
+  .awaiting {
+    background: #fff6f2;
+    color: #ec7536;
+  }
+  .responded {
+    background: #f2f6fc;
+    color: #2f77d9;
+  }
+}
+.displayed-orders {
+  p,
+  small {
+    font-family: SoraR;
+  }
+  small {
+    font-size: 12px;
+    color: #413e3e;
+  }
+  .order-details {
+    padding-left: 15px;
+  }
+  .price {
+    font-size: 14px;
+    span {
+      color: #707070;
+      font-size: 13px;
+    }
+  }
+  button {
+    padding: 5px 25px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 40px;
+    background: #ec7536;
+    color: #fff;
+    font-size: 12px;
+    font-family: SoraM;
+    &:hover {
+      background: #e35910;
+    }
+  }
+}
+.dashboard-actions {
+  display: grid;
+  button {
+    background: #fff;
+    border: solid 1px #b9b6b6;
+    color: #141212;
+    font-family: SoraM;
+    padding: 0px 30px !important;
+    border-radius: 40px;
+    margin-top: 10px;
+    &:hover {
+      border: solid 1px#FF3C2B !important;
+    }
+  }
+}

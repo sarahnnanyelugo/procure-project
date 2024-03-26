@@ -1,0 +1,20 @@
+.dashboard-nav {
+  //   padding-left: 40px;
+  border-right: solid 1px grey;
+  a {
+    color: #707070;
+    text-decoration: none;
+    padding-top: 50px;
+    font-family: SoraM;
+    font-size: 14px;
+    // line-height: 30px;
+  }
+  .active {
+    background: red;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 40px;
+  }
+  ul li {
+  }
+}

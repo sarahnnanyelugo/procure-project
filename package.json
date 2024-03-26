@@ -5,6 +5,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@icon/icofont": "^1.0.1-alpha.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,6 +16,7 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-drag-drop-files": "^2.3.10",
+    "react-icofont": "^1.0.19",
     "react-phone-number-input": "^3.2.20",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",

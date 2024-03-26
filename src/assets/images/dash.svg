@@ -1,0 +1,6 @@
+<svg id="element-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="Vector" d="M7.094,14.912V1.749C7.094.5,6.56,0,5.233,0H1.861C.534,0,0,.5,0,1.749V14.912c0,1.25.534,1.749,1.861,1.749H5.233C6.56,16.661,7.094,16.162,7.094,14.912Z" transform="translate(1.669 1.669)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Vector-2" data-name="Vector" d="M7.094,7.428V1.753C7.094.5,6.56,0,5.233,0H1.861C.534,0,0,.5,0,1.753V7.428C0,8.68.534,9.181,1.861,9.181H5.233C6.56,9.181,7.094,8.68,7.094,7.428Z" transform="translate(11.236 1.669)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Vector-3" data-name="Vector" d="M7.094,3.255v-1.5C7.094.5,6.56,0,5.233,0H1.861C.534,0,0,.5,0,1.753v1.5C0,4.507.534,5.008,1.861,5.008H5.233C6.56,5.008,7.094,4.507,7.094,3.255Z" transform="translate(11.236 13.323)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Vector-4" data-name="Vector" d="M0,0H20V20H0Z" fill="none" opacity="0"/>
+</svg>
