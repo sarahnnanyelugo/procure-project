@@ -1,0 +1,27 @@
+.overview-body {
+  p {
+    font-family: SoraR;
+    color: #6b6060;
+  }
+  background: #fcfcfc;
+  .summary-div {
+    background: #fff;
+    border-radius: 10px;
+    height: 138px;
+    padding: 20px;
+    h5 {
+      font-size: 26px;
+    }
+  }
+  .total-transaction {
+    height: 399px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #d8d4d4;
+    border-radius: 10px;
+    select {
+      height: 25px;
+      font-family: SoraR;
+    }
+  }
+}

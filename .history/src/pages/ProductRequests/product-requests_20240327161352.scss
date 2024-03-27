@@ -1,0 +1,77 @@
+.product-request-div {
+  .request-div {
+    height: 790px;
+    background: #fafafa;
+    border: 1px solid #d8d4d4;
+    border-radius: 10px;
+    padding: 20px;
+  }
+}
+.requests-component {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f4f2f2;
+  border-radius: 14px;
+  margin-top: 20px;
+  padding: 10px;
+  p {
+    font-family: SoraM;
+    padding-left: 20px;
+  }
+  button {
+    font-size: 12px;
+    font-family: SoraR;
+    border-radius: 70px;
+    padding: 3px 18px;
+    border: none;
+  }
+  small {
+    color: #969393;
+    font-size: 12px;
+  }
+  .pending {
+    background-color: #fcf9ea;
+    color: #d8910b;
+  }
+  .cancelled {
+    background-color: #fff5f4;
+    color: #ff3c2b;
+  }
+  .awaiting {
+    background-color: #fff6f2;
+    color: #ec7536;
+  }
+  .responded {
+    background-color: #f2f6fc;
+    color: #2f77d9;
+  }
+}
+.recommended-product2 {
+  height: 250px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  padding: 10px 20px;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+  }
+  p {
+    font-family: SoraR;
+    font-size: 8px;
+    margin-top: 9px;
+    line-height: 10px;
+  }
+  h6 {
+    font-family: SoraSB;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  small {
+    font-family: SoraR;
+    font-size: 9px;
+    color: grey;
+  }
+}
+.request-body {
+  background: #fafafa;
+  padding-top: 30px;
+}
