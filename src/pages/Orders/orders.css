@@ -1,0 +1,72 @@
+.transaction-page {
+  background: #fff;
+}
+
+.transaction-page h2 {
+  font-family: SoraSB;
+  font-size: 16px;
+}
+
+.transaction-page .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .transaction-page .tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.transaction-page .tab {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: #fff;
+  padding: 1em 0;
+  border: none;
+  border-bottom: solid 1px #e8e5e5;
+  color: #969393;
+  margin-bottom: 20px;
+  font-family: SoraM;
+}
+
+.transaction-page .tab.active2 {
+  border-bottom: solid 5px #ff3c2b;
+  font-weight: bold;
+  font-family: SoraM;
+  border-radius: 1px;
+  color: #141212;
+}
+
+.transaction-page .panel {
+  display: none;
+  background: #fff !important;
+  padding: 20px 20px 20px 20px;
+  color: #000;
+  border: solid 1px #e8e5e5;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 620px) {
+  .transaction-page .panel {
+    padding: 0px;
+  }
+  .transaction-page .panels {
+    width: 100%;
+  }
+}
+
+.transaction-page .panel.active2 {
+  display: block;
+}
+/*# sourceMappingURL=orders.css.map */

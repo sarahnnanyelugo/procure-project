@@ -1,0 +1,29 @@
+.messages-body {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  height: 786px;
+  padding: 20px;
+}
+
+.chats:hover {
+  background: #fafafa;
+}
+
+.chats small {
+  margin-left: 20px;
+}
+
+.chats p {
+  font-size: 16px !important;
+  font-family: SoraM;
+}
+
+.chats p sup {
+  background: #ff3c2b;
+  color: #fff;
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=messages.css.map */

@@ -1,0 +1,26 @@
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ReactSelectFlags-module_container__SFuNT
+.ReactSelectFlags-module_selectWrapper__I7wcI
+.ReactSelectFlags-module_searchSelect__O6Fp2,
+.ReactSelectFlags-module_container__SFuNT
+.ReactSelectFlags-module_selectWrapper__I7wcI
+.ReactSelectFlags-module_buttonSelect__CxH4w {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none !important;
+  font-family: SoraR;
+  padding: 2px 45px 2px 10px;
+}
+/*# sourceMappingURL=styles.css.map */

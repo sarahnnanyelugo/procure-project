@@ -122,7 +122,7 @@
 .app-btn {
   color: #fff;
   border-radius: 40px;
-  padding: 12px 28px;
+  padding: 10px 22px;
   font-size: 14px;
   font-family: SoraM;
   background: #ff3c2b;
@@ -160,17 +160,136 @@
   }
 }
 
-.offcanvas {
-  height: 50% !important;
+@media screen and (max-width: 620px) {
+  .mobile-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  div {
+    overflow: hidden;
+  }
 }
 
 .canvas-trigger {
   cursor: pointer;
 }
 
+.offcanvas {
+  height: 80% !important;
+}
+
 @media screen and (max-width: 620px) {
   .offcanvas-body {
     padding: 10px 0;
   }
+}
+
+.nav-tab {
+  margin-top: 30px;
+  /* Style the buttons that are used to open the tab content */
+  /* Change background color of buttons on hover */
+  /* Create an active/current "tab button" class */
+}
+
+.nav-tab h5 {
+  margin-bottom: 60px;
+}
+
+.nav-tab .tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 10px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: SoraM;
+  border-right: solid 1px #dcd8d8;
+}
+
+.nav-tab .tab button.active2 {
+  background: #f4f3f3b2;
+}
+
+.nav-tab .tabcontent {
+  float: left;
+  border-left: none;
+  display: none;
+}
+
+@media screen and (max-width: 620px) {
+  .nav-tab .tabcontent {
+    width: 100%;
+  }
+}
+
+.nav-tab .tabcontent a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: SoraM;
+}
+
+@media screen and (max-width: 620px) {
+  .nav-tab .tabcontent a {
+    font-size: 15px;
+  }
+}
+
+.nav-tab .tabcontent.active2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-navs {
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 40px 0 40px 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-navs:hover {
+  background: green;
+  color: #fff !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 620px) {
+  .menu-holder {
+    position: relative;
+    z-index: 6;
+  }
+}
+
+@media screen and (max-width: 620px) and (max-width: 620px) {
+  .menu-holder {
+    margin-top: 20px;
+  }
+}
+
+.subs .active {
+  background: green;
+  color: #fff !important;
+}
+
+.suppliers-list ul li {
+  line-height: 15px !important;
+}
+
+.suppliers-list ul li img {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=menu.css.map */

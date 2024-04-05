@@ -1,0 +1,58 @@
+.favourites-page {
+  background: #fff;
+
+  h2 {
+    font-family: SoraSB;
+    font-size: 16px;
+  }
+
+  .tabs {
+    display: flex;
+    width: 20%;
+  }
+  @media screen and (max-width: 620px) {
+    .tabs {
+      flex-direction: column-reverse;
+    }
+  }
+  .tab {
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 100%;
+    background: #f7f5f5;
+    padding: 5px 0;
+    border: none;
+    color: #141212;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: SoraM;
+  }
+
+  .tab.active2 {
+    background: #ff3c2b;
+    font-weight: bold;
+    font-family: SoraM;
+
+    color: #fff;
+  }
+  .panel {
+    display: none;
+    background: #fff !important;
+    padding: 20px 20px 20px 20px;
+    color: #000;
+    border: solid 1px #e8e5e5;
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 620px) {
+    .panel {
+      padding: 0px;
+    }
+    .panels {
+      width: 100%;
+    }
+  }
+  .panel.active2 {
+    display: block;
+  }
+}

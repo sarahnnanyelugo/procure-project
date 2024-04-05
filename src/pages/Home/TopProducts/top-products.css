@@ -68,7 +68,7 @@
   font-size: 14px;
 }
 
-.carousel-control-next-icon {
+.products-carousel .carousel-control-next-icon {
   background-image: url("../../../assets/images/next.png");
   height: 50px;
   width: 50px;
@@ -80,12 +80,12 @@
 }
 
 @media screen and (max-width: 620px) {
-  .carousel-control-next-icon {
+  .products-carousel .carousel-control-next-icon {
     display: none;
   }
 }
 
-.carousel-control-prev-icon {
+.products-carousel .carousel-control-prev-icon {
   height: 50px;
   width: 50px;
   background-image: url("../../../assets/images/prev.png");
@@ -97,12 +97,12 @@
 }
 
 @media screen and (max-width: 620px) {
-  .carousel-control-prev-icon {
+  .products-carousel .carousel-control-prev-icon {
     display: none;
   }
 }
 
-.carousel-indicators button {
+.products-carousel .carousel-indicators button {
   background: grey !important;
   border: solid 1px #707070 !important;
   border-radius: 50% !important;
@@ -112,17 +112,17 @@
 }
 
 @media screen and (max-width: 620px) {
-  .carousel-indicators button {
+  .products-carousel .carousel-indicators button {
     display: none;
   }
 }
 
-.carousel-indicators {
+.products-carousel .carousel-indicators {
   margin-left: 1000px !important;
 }
 
 @media screen and (max-width: 620px) {
-  .carousel-indicators {
+  .products-carousel .carousel-indicators {
     margin: 0 !important;
   }
 }

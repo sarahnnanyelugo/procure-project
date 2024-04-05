@@ -1,0 +1,56 @@
+.overview-body {
+  background: #fcfcfc;
+}
+
+.overview-body p {
+  font-family: SoraR;
+  color: #6b6060;
+}
+
+.overview-body .summary-div {
+  background: #fff;
+  border-radius: 10px;
+  height: 138px;
+  padding: 20px;
+}
+
+.overview-body .summary-div h5 {
+  font-size: 26px;
+}
+
+.overview-body .total-transaction {
+  height: 399px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+}
+
+.overview-body .total-transaction select {
+  height: 25px;
+  font-family: SoraR;
+  font-size: 12px;
+  border: none !important;
+  background: #fff !important;
+}
+
+.overview-body .total-transaction sup {
+  color: #13b23e;
+}
+
+.overview-body .total-transaction sup img {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  margin-left: 5px;
+}
+
+.overview-body .total-transaction h6 {
+  margin-top: 80px;
+}
+
+.overview-body .total-transaction small {
+  font-family: SoraR;
+  font-size: 13px;
+  color: #6b6060;
+}
+/*# sourceMappingURL=overview-dashboard.css.map */

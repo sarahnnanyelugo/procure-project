@@ -1,0 +1,33 @@
+.budget-div-inner {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  height: 444px;
+  padding: 30px 15px;
+}
+
+@media screen and (max-width: 620px) {
+  .budget-div-inner {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+.budget-div-inner h2 {
+  font-size: 24px;
+  font-family: SoraSB;
+  margin-bottom: 0;
+}
+
+.budget-div-inner p {
+  color: #847777;
+  font-size: 14px;
+  font-family: SoraM;
+}
+
+.budget-div-inner a {
+  color: #520a0a;
+  font-size: 14px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=budget-products.css.map */

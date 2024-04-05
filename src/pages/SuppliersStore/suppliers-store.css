@@ -1,0 +1,188 @@
+.bredcrmb {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.bredcrmb a {
+  margin: 2px 10px;
+  color: #000;
+  text-decoration: none;
+  font-family: SoraR;
+}
+
+.bredcrmb p {
+  margin-top: 2px;
+  font-family: SoraR;
+}
+
+.bredcrmb hr {
+  border: solid 1px #dcdcdc;
+}
+
+.suppliers-store-bg {
+  padding-top: 140px;
+  height: 300px;
+  background: black;
+  color: #fff;
+}
+
+.suppliers-store-bg .supplier-logo {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.suppliers-store-bg h1 {
+  font-size: 46px;
+}
+
+.suppliers-store-bg p {
+  font-family: SoraR;
+  font-size: 14px;
+}
+
+.input-div2 input {
+  border: solid 1px #bfbfbf;
+  border-radius: 50px;
+  height: 40px;
+  padding-left: 30px;
+  font-family: SoraR;
+  width: 100%;
+}
+
+.input-div2 p {
+  font-family: SoraR;
+  color: grey;
+  margin-top: 10px;
+  margin-left: 7px;
+  font-size: 14px;
+}
+
+.category-selection ul li {
+  line-height: 35px;
+  font-family: SoraR;
+  cursor: pointer;
+}
+
+.prd-active {
+  color: #ff3c2b;
+  font-family: SoraM;
+}
+
+.deals-div {
+  height: 294px;
+  padding: 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #0000001c;
+          box-shadow: 0px 3px 6px #0000001c;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 620px) {
+  .deals-div {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+.deals-div h6 {
+  font-family: SoraSB;
+  font-size: 15px;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.deals-div small {
+  font-size: 9px;
+  font-family: SoraR;
+  color: #847777;
+}
+
+.deals-div small span {
+  font-size: 13px;
+  color: #ee1300;
+  font-family: SoraSB;
+}
+
+.deals-div small .discount {
+  font-size: 12px;
+  color: #a69c9c;
+  text-decoration: line-through;
+}
+
+.deals-div p {
+  font-size: 9px;
+  text-decoration: underline;
+}
+
+.badge-holder2 {
+  position: relative;
+}
+
+.badge-holder2 .badge {
+  position: absolute;
+  height: 0;
+  width: 51px;
+  right: 0px;
+  background: transparent !important;
+  padding-top: 12px;
+}
+
+.badge-holder2 .badge i {
+  font-size: 20px;
+}
+
+.badge-holder2 .badge .addfav {
+  color: #8da1b2;
+}
+
+.badge-holder2 .badge .removefav {
+  color: #ff3c2b;
+}
+
+.prev-btn button {
+  border: 1px solid #838181;
+  font-family: SoraM;
+  font-size: 14px;
+  border-radius: 40px;
+  color: grey;
+  padding: 7px 23px;
+  background: #fff;
+}
+
+.prev-btn button:hover {
+  background: #ffc4bf;
+  color: #fff;
+  border: none;
+}
+
+.num-btn button {
+  background: #eaeaea;
+  color: #141212;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.num-btn button:hover {
+  border: solid 1px #141212;
+}
+
+.next-btn button {
+  border: 1px solid #141212;
+  font-family: SoraM;
+  font-size: 14px;
+  border-radius: 40px;
+  color: #141212;
+  padding: 7px 23px;
+  background: #fff;
+}
+
+.next-btn button:hover {
+  background: #eaeaea;
+  color: #141212;
+  border: none;
+}
+/*# sourceMappingURL=suppliers-store.css.map */

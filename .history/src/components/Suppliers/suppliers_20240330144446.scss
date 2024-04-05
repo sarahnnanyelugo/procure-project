@@ -1,0 +1,32 @@
+.products-component {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d2cdcd;
+  border-radius: 8px;
+  padding: 20px;
+  height: 252px;
+  margin-top: 30px;
+  &:hover {
+    border: 1px solid #ff3c2b;
+  }
+  button {
+    background: #fff;
+    width: 144px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #141212;
+    border-radius: 40px;
+    font-family: SoraM;
+    font-size: 13px;
+  }
+  .colm3 {
+    border-left: solid 1px rgb(236, 233, 233);
+  }
+  p {
+    font-family: SoraR;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 30px;
+    font-family: SoraSB;
+  }
+}

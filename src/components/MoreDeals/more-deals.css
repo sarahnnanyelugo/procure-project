@@ -1,0 +1,40 @@
+.more-deals-div {
+  height: 230px;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+}
+
+@media screen and (max-width: 620px) {
+  .more-deals-div {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+.deal-amount {
+  width: 77px;
+  height: 51px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  position: absolute;
+  bottom: 4px;
+  left: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.deal-amount p {
+  font-size: 12px;
+  color: #847777;
+  font-family: SoraR;
+  margin-bottom: 0;
+}
+
+.deal-amount h6 {
+  color: #ee1300;
+  font-size: 15px;
+  font-family: SoraSB;
+}
+/*# sourceMappingURL=more-deals.css.map */

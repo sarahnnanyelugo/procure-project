@@ -1,0 +1,107 @@
+.cards-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  height: 197px;
+  padding: 20px;
+  p {
+    font-family: SoraM;
+    flex-grow: 1;
+  }
+  a {
+    color: #ff3c2b;
+    text-decoration: none;
+    font-family: SoraM;
+    font-size: 14px;
+  }
+  small {
+    font-family: SoraR;
+    color: #707070;
+    font-size: 13px;
+    margin-top: 40px;
+  }
+}
+
+.total-div {
+  height: 193px;
+  background: #ff3c2b;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  p {
+    font-family: SoraR;
+    font-size: 14px;
+  }
+  h1 {
+    font-family: SoraM;
+    font-size: 50px;
+  }
+  button {
+    background: #fff;
+    padding: 3px 15px;
+    border-radius: 40px;
+    color: #ff3c2b;
+    border: none;
+    font-family: SoraM;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+.transact-history {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  height: 561px;
+  padding: 20px;
+}
+.wallet-table {
+  background: rgb(11, 2, 48) !important;
+
+  .tabs {
+    display: flex;
+  }
+  @media screen and (max-width: 620px) {
+    .tabs {
+      /* display: grid; */
+      flex-direction: column-reverse;
+    }
+    .transaction-page .search {
+      margin-left: auto;
+    }
+  }
+  .tab {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgb(11, 2, 48) !important;
+    padding: 1em 0;
+    border: none;
+    border-bottom: solid 1px rgb(70, 66, 66);
+    color: #fff;
+  }
+
+  .tab.active2 {
+    border-bottom: solid 2px rgb(41, 160, 115);
+    font-weight: bold;
+  }
+  .transaction-page .panel {
+    display: none;
+    background: rgb(11, 2, 48) !important;
+    padding: 100px 80px 200px 80px;
+    color: #fff;
+  }
+  @media screen and (max-width: 620px) {
+    .panel {
+      padding: 0px;
+    }
+    .panels {
+      width: 100%;
+    }
+    .transaction-page {
+      margin-top: 0rem;
+    }
+  }
+}
+.panel.active2 {
+  display: block;
+}

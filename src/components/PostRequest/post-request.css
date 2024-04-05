@@ -1,0 +1,46 @@
+.post-request-body h3 {
+  color: #590700;
+  font-size: 40px;
+}
+
+.post-request-body p {
+  font-family: SoraR;
+  font-size: 16px;
+}
+
+.post-request-body textarea {
+  width: 100%;
+  border: solid 1px #bfbfbf;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-family: SoraR;
+  min-height: 150px;
+}
+
+.post-request-body .audio-record {
+  border: solid 1px #bfbfbf;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.box.has-advanced-upload {
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+
+.box.has-advanced-upload .box__dragndrop {
+  display: inline;
+}
+
+.box.is-dragover {
+  background-color: grey;
+}
+/*# sourceMappingURL=post-request.css.map */

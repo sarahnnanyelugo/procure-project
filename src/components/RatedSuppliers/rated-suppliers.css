@@ -1,0 +1,48 @@
+.rated-suppliers-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #0000001c;
+          box-shadow: 0px 3px 6px #0000001c;
+  border-radius: 8px;
+  height: 319px;
+}
+
+@media screen and (max-width: 620px) {
+  .rated-suppliers-div {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-top: 20px;
+  }
+}
+
+.rated-suppliers-div .inner-cont {
+  padding: 7px 10px;
+}
+
+.rated-suppliers-div .inner-cont p {
+  color: #6b6060;
+  font-family: SoraR;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.rated-suppliers-div .inner-cont span {
+  color: #6b6060;
+  font-family: SoraR;
+  font-size: 7px;
+}
+
+.rated-suppliers-div .inner-cont small {
+  color: #6b6060;
+  font-family: SoraR;
+  font-size: 10px;
+}
+
+.rated-suppliers-div .inner-cont h6 {
+  color: #141212;
+  font-family: SoraR;
+  font-size: 10px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=rated-suppliers.css.map */

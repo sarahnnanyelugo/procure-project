@@ -1,0 +1,90 @@
+.cards-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  height: 197px;
+  padding: 20px;
+  p {
+    font-family: SoraM;
+    flex-grow: 1;
+  }
+  a {
+    color: #ff3c2b;
+    text-decoration: none;
+    font-family: SoraM;
+    font-size: 14px;
+  }
+  small {
+    font-family: SoraR;
+    color: #707070;
+    font-size: 13px;
+    margin-top: 40px;
+  }
+}
+
+.total-div {
+  height: 193px;
+  background: #ff3c2b;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  p {
+    font-family: SoraR;
+    font-size: 14px;
+  }
+  h1 {
+    font-family: SoraM;
+    font-size: 50px;
+  }
+  button {
+    background: #fff;
+    padding: 3px 15px;
+    border-radius: 40px;
+    color: #ff3c2b;
+    border: none;
+    font-family: SoraM;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+.transact-history {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 20px;
+}
+.wallet-table {
+  background: #fff;
+
+  .filtering-btns2 {
+    button {
+      margin-right: 40px;
+      border: none;
+      background: #fff;
+    }
+    .actived {
+      border-bottom: 5px solid #ff3c2b;
+      color: #141212;
+      font-family: SoraM;
+      border-radius: 0;
+    }
+  }
+}
+.card-input {
+  border: 1px solid #707070;
+  border-radius: 7px;
+  height: 68px;
+  padding: 20px 80px;
+  margin-top: 30px;
+  width: 100%;
+}
+.card-input-icons {
+  padding: 0 10px;
+  margin-top: -60px;
+  .actions {
+    img {
+      margin: 6px;
+    }
+  }
+}

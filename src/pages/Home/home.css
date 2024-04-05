@@ -122,7 +122,7 @@
 .app-btn {
   color: #fff;
   border-radius: 40px;
-  padding: 12px 28px;
+  padding: 10px 22px;
   font-size: 14px;
   font-family: SoraM;
   background: #ff3c2b;
@@ -160,6 +160,19 @@
   }
 }
 
+@media screen and (max-width: 620px) {
+  .mobile-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  div {
+    overflow: hidden;
+  }
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -190,7 +203,7 @@
 
 @media screen and (max-width: 620px) {
   .overlay h1 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
   }
 }
@@ -205,13 +218,27 @@
   width: 100%;
   padding-left: 80px;
   font-family: SoraR;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 620px) {
   .overlay input {
     font-size: 10px;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right: 0px !important;
+    height: 45px;
   }
+}
+
+.sign-up {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sign-up2 {
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .cover {
@@ -240,20 +267,22 @@
 }
 
 .input-overlay {
-  margin-top: -60px;
+  margin-top: -67px;
 }
 
-.input-overlay .input-actions {
-  margin: 10px;
+@media screen and (max-width: 620px) {
+  .input-overlay .input-actions {
+    margin: 35px 5px 5px 5px;
+  }
 }
 
 .input-overlay .input-search {
-  margin: 10px 0 0 50px;
+  margin: 20px 0 0 50px;
 }
 
 @media screen and (max-width: 620px) {
   .input-overlay .input-search {
-    margin: 10px 0 0 10px;
+    margin: 25px 0 0 5px;
   }
 }
 
@@ -369,6 +398,12 @@
   margin-top: 250px;
 }
 
+@media screen and (max-width: 620px) {
+  .products {
+    margin-top: 80px;
+  }
+}
+
 .products h1 {
   font-size: 60px;
   color: #590700;
@@ -405,207 +440,83 @@
   }
 }
 
-@media screen and (max-width: 620px) {
-  .areas-div {
-    margin-top: 40px;
-    padding-left: 10px;
-  }
-}
-
-.areas-div .areas {
-  border: 4px solid #efecec;
-  height: 149px;
-  width: 149px;
-  background: #fff;
-  border-radius: 50%;
-  padding: 30px;
-  margin-bottom: 10px;
+.mission-div {
+  padding: 100px 50px;
+  height: 458px;
+  background: url("../../assets/images/mission-bg.png");
+  background-size: cover;
+  margin-bottom: 80px;
+  margin-top: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+  color: #fff;
 }
 
 @media screen and (max-width: 620px) {
-  .areas-div .areas {
-    height: 90px;
-    width: 90px;
-    padding: 10px 5px;
-    margin-bottom: 5px !important;
+  .mission-div {
+    padding: 30px 10px;
+    height: 258px;
+    margin-top: 80px;
   }
 }
 
-.areas-div .areas img {
-  height: 36px;
-  width: 36px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .areas img {
-    height: 25px;
-    width: 25px;
-    margin-bottom: 2px;
-  }
-}
-
-.areas-div .areas p {
-  font-size: 12px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .areas p {
-    font-size: 9px;
-  }
-}
-
-.areas-div .areas:hover {
-  border: solid 4px #f29d95;
-}
-
-.areas-div .area1 {
+.mission-div p {
+  font-size: 36px;
   margin-top: 40px;
+  font-family: SoraB;
 }
 
 @media screen and (max-width: 620px) {
-  .areas-div .area1 {
-    margin: 0;
+  .mission-div p {
+    font-size: 18px;
   }
 }
 
-.areas-div .area2 {
-  margin-left: 30px;
+.get-started-div {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#fff5f4), to(#ffffff00)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #fff5f4 0%, #ffffff00 100%) 0% 0% no-repeat padding-box;
+  height: 1149px;
+  padding-top: 70px;
 }
 
 @media screen and (max-width: 620px) {
-  .areas-div .area2 {
-    margin: 0;
+  .get-started-div {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
   }
 }
 
-.areas-div .area3 {
-  margin-left: 30px;
+.get-started-div h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 620px) {
-  .areas-div .area3 {
-    margin: 0;
+  .get-started-div h1 {
+    font-size: 30px;
   }
 }
 
-.areas-div .area4 {
-  margin-left: -60px;
-  margin-top: -90px;
-  margin-bottom: 30px;
+.get-started-div button {
+  margin-bottom: 50px;
 }
 
-@media screen and (max-width: 620px) {
-  .areas-div .area4 {
-    margin: 0;
-  }
+.prefooter-div {
+  height: 304px;
+  border-radius: 20px;
+  background: url("../../assets/images/prefooter-bg.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  padding-top: 100px;
+  position: relative;
+  z-index: 4;
 }
 
-.areas-div .area5 {
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area5 {
-    margin: 0;
-  }
-}
-
-.areas-div .area6 {
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area6 {
-    margin: 0;
-  }
-}
-
-.areas-div .area7 {
-  margin-left: 10px;
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area7 {
-    margin: 0;
-  }
-}
-
-.areas-div .area8 {
-  margin-left: -60px;
-  margin-top: -140px;
-  margin-bottom: 0px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area8 {
-    margin: 0;
-  }
-}
-
-.areas-div .area9 {
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area9 {
-    margin: 0;
-  }
-}
-
-.areas-div .area10 {
-  margin-bottom: 30px;
-  margin-left: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area10 {
-    margin: 0;
-  }
-}
-
-.areas-div .area11 {
-  margin-top: 50px;
-  margin-left: 10px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area11 {
-    margin: 0;
-  }
-}
-
-.areas-div .area12 {
-  margin-top: -90px;
-  margin-left: -40px;
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area12 {
-    margin: 0;
-  }
-}
-
-.areas-div .area13 {
-  margin-bottom: 30px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area13 {
-    margin: 0;
-  }
-}
-
-.areas-div .area14 {
-  margin-left: -10px;
-  margin-top: 50px;
-}
-
-@media screen and (max-width: 620px) {
-  .areas-div .area14 {
-    margin: 0;
-  }
+.prefooter-div p {
+  font-family: SoraR;
 }
 /*# sourceMappingURL=home.css.map */

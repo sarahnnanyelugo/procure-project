@@ -1,0 +1,127 @@
+.transactions-table-container {
+  background: #fff;
+  border-radius: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.transactions-table-container h3 {
+  font-size: 12px;
+  color: #969393;
+  font-family: SoraR;
+}
+
+.transactions-table-container h2 {
+  font-size: 18px;
+  font-family: SoraM;
+}
+
+.transactions-table-container p {
+  font-size: 12px;
+  font-family: SoraR;
+}
+
+.transactions-table-container a {
+  color: #215995;
+  font-family: SoraR;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.transactions-table-container .order-status-btn {
+  border: none;
+  font-size: 12px;
+  padding: 7px 25px;
+  margin-left: 30px;
+  border-radius: 70px;
+  font-family: SoraR;
+}
+
+.transactions-table-container .completed {
+  background: #edf8f0;
+  color: #13b23e;
+}
+
+.transactions-table-container .pending {
+  background: #fcf9ea;
+  color: #d8910b;
+}
+
+.transactions-table-container .cancelled {
+  background: #fff5f4;
+  color: #ff3c2b;
+}
+
+.transactions-table-container .awaiting {
+  background: #fff6f2;
+  color: #ec7536;
+}
+
+.transactions-table-container .responded {
+  background: #f2f6fc;
+  color: #2f77d9;
+}
+
+.displayed-orders p,
+.displayed-orders small {
+  font-family: SoraR;
+}
+
+.displayed-orders small {
+  font-size: 12px;
+  color: #413e3e;
+}
+
+.displayed-orders .order-details {
+  padding-left: 15px;
+}
+
+.displayed-orders .order-details p {
+  font-size: 14px;
+}
+
+.displayed-orders .price {
+  font-size: 14px;
+}
+
+.displayed-orders .price span {
+  color: #707070;
+  font-size: 13px;
+}
+
+.displayed-orders .buy-again-btn {
+  padding: 5px 25px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 40px;
+  background: #ec7536;
+  color: #fff;
+  font-size: 12px;
+  font-family: SoraM;
+}
+
+.displayed-orders .buy-again-btn:hover {
+  background: #e35910;
+}
+
+.dashboard-actions {
+  display: -ms-grid;
+  display: grid;
+  height: 170px;
+}
+
+.dashboard-actions button {
+  background: #fff;
+  border: solid 1px #b9b6b6;
+  color: #141212;
+  font-family: SoraM;
+  padding: 0px 20px !important;
+  height: 45px;
+  border-radius: 40px;
+  margin-top: 0px;
+}
+
+.dashboard-actions button:hover {
+  border: solid 1px #FF3C2B !important;
+}
+/*# sourceMappingURL=order-table.css.map */

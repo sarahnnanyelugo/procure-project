@@ -46,4 +46,24 @@ h5,
 h6 {
   font-family: SerifR;
 }
+
+.pending {
+  background-color: #fcf9ea;
+  color: #d8910b;
+}
+
+.cancelled {
+  background-color: #fff5f4;
+  color: #ff3c2b;
+}
+
+.awaiting {
+  background-color: #fff6f2;
+  color: #ec7536;
+}
+
+.responded {
+  background-color: #f2f6fc;
+  color: #2f77d9;
+}
 /*# sourceMappingURL=App.css.map */

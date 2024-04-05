@@ -1,0 +1,135 @@
+.product-request-div .request-div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #fff;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.product-request-div .request-div2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #fafafa;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.requests-component {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f4f2f2;
+  border-radius: 14px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.requests-component p {
+  font-family: SoraM;
+  padding-left: 20px;
+}
+
+.requests-component button {
+  font-size: 12px;
+  font-family: SoraR;
+  border-radius: 70px;
+  padding: 3px 18px;
+  border: none;
+}
+
+.requests-component small {
+  color: #969393;
+  font-size: 12px;
+}
+
+.requests-component .pending {
+  background-color: #fcf9ea;
+  color: #d8910b;
+}
+
+.requests-component .cancelled {
+  background-color: #fff5f4;
+  color: #ff3c2b;
+}
+
+.requests-component .awaiting {
+  background-color: #fff6f2;
+  color: #ec7536;
+}
+
+.requests-component .responded {
+  background-color: #f2f6fc;
+  color: #2f77d9;
+}
+
+.recommended-product2 {
+  height: 225px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .recommended-product2 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+.recommended-product2 p {
+  font-family: SoraR;
+  font-size: 8px;
+  margin-top: 9px;
+  line-height: 10px;
+}
+
+.recommended-product2 h6 {
+  font-family: SoraSB;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+.recommended-product2 small {
+  font-family: SoraR;
+  font-size: 8px;
+  color: grey;
+}
+
+.request-body {
+  background: #fafafa;
+  padding-top: 30px;
+}
+
+.active22 {
+  border-bottom: solid 5px #ff3c2b;
+  font-weight: bold;
+  font-family: SoraM;
+  border-radius: 0px;
+  color: #141212 !important;
+  font-size: 14px;
+}
+
+.filtering-btns {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: #fff;
+  padding: 1em 0;
+  border: none;
+  border-bottom: solid 1px #e8e5e5;
+  margin-bottom: 20px;
+  font-family: SoraM;
+}
+
+.filtering-btns button {
+  color: #969393;
+}
+/*# sourceMappingURL=product-requests.css.map */

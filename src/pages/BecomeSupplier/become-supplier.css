@@ -1,0 +1,387 @@
+.mt1 {
+  margin-top: 10px;
+}
+
+.mt2 {
+  margin-top: 20px;
+}
+
+.mt3 {
+  margin-top: 30px;
+}
+
+.mt4 {
+  margin-top: 40px;
+}
+
+.mt5 {
+  margin-top: 50px;
+}
+
+.mt6 {
+  margin-top: 60px;
+}
+
+.mt7 {
+  margin-top: 70px;
+}
+
+.mt8 {
+  margin-top: 80px;
+}
+
+.mt9 {
+  margin-top: 90px;
+}
+
+.mt {
+  margin-top: 140px;
+}
+
+.mtt {
+  margin-top: 200px;
+}
+
+.bb {
+  border-bottom: solid 1px #e9e5e5;
+}
+
+.bt {
+  border-top: solid 1px #e9e5e5;
+}
+
+.pd {
+  padding: 80px 0;
+}
+
+.br {
+  border-right: solid 1px #e9e5e5;
+}
+
+@media screen and (max-width: 620px) {
+  .no-m {
+    margin: 0 !important;
+  }
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.ml2 {
+  margin-left: 20px;
+}
+
+.ml3 {
+  margin-left: 30px;
+}
+
+.mb5 {
+  margin-bottom: 50px;
+}
+
+.mb4 {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 620px) {
+  .no-margin {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .dn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .dnW {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .dnM {
+    display: none;
+  }
+}
+
+.img-resolv {
+  width: 90%;
+}
+
+@media screen and (max-width: 620px) {
+  .img-resolv {
+    width: 100%;
+  }
+}
+
+.app-btn {
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-family: SoraM;
+  background: #ff3c2b;
+  border: none;
+  text-decoration: none;
+}
+
+.app-btn:hover {
+  background: #ee1300;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 620px) {
+  .app-btn {
+    font-size: 10px;
+    padding: 8px 18px;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .flexy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .flexyM {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .mobile-padding {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  div {
+    overflow: hidden;
+  }
+}
+
+.become-supplier-overlay h1 {
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.become-supplier-overlay button {
+  margin: 5px;
+}
+
+.become-supplier-overlay .contact-btn {
+  color: #fff;
+  border-radius: 40px;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-family: SoraM;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+.become-supplier-overlay .contact-btn:hover {
+  background: #e9e6e6;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #000;
+}
+
+.supplier-intros {
+  margin-top: 70px;
+}
+
+.supplier-intros h1 {
+  font-size: 60px;
+}
+
+.empty-div {
+  background: #e9e6e6;
+  height: 650px;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+
+.pros-container {
+  margin-top: 70px;
+}
+
+.pros-container .pros-div {
+  -webkit-box-shadow: 0px 4px 22px #1412120d;
+          box-shadow: 0px 4px 22px #1412120d;
+  height: 384px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.pros-container .pros-div p {
+  font-family: SoraR;
+}
+
+.pros-container .pros-div h2 {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.business-growth {
+  margin-top: 70px;
+}
+
+.business-growth h1 {
+  font-size: 60px;
+}
+
+.business-growth .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: solid 4px #e9e6e6;
+  width: 100%;
+  margin-top: 50px;
+  font-family: rebondG-Bold;
+}
+
+@media screen and (max-width: 620px) {
+  .business-growth .tabs {
+    width: 40%;
+    margin-top: -30%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .business-growth .tabs button {
+    margin-left: 10px;
+  }
+}
+
+.business-growth .tab {
+  width: 25%;
+  background: transparent;
+  padding: 5px 0px;
+  border: none;
+  color: #a69c9c;
+  padding-bottom: 10px;
+  font-family: SoraSB;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 620px) {
+  .business-growth .tab {
+    width: 100%;
+  }
+}
+
+.business-growth .panel {
+  display: none;
+  color: #161617;
+  font-family: rebondG;
+  line-height: 40px;
+  padding-top: 65px;
+  background: #fff;
+}
+
+.business-growth .panel p {
+  font-family: SoraR;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 620px) {
+  .business-growth .panel {
+    padding: 0px;
+  }
+}
+
+.business-growth button.active2 {
+  font-weight: bold;
+  color: #141212;
+  border-bottom: solid 13px #ff3c2b;
+}
+
+.business-growth .panel.active2 {
+  display: block;
+}
+
+.getting-started {
+  background: #fafafa;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 70px;
+}
+
+.getting-started h1 {
+  font-size: 60px;
+}
+
+.getting-started .starting-steps img {
+  margin-right: 20px;
+}
+
+.getting-started .starting-steps p {
+  color: #524a4a;
+  font-family: SoraR;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.supplier-review {
+  background: #faf5f1;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.supplier-review .review-heading {
+  font-size: 60px;
+}
+
+.blog-div h1 {
+  font-size: 60px;
+}
+
+.blog-div .blog-post {
+  padding: 20px;
+  height: 417px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 4px 22px #1412120d;
+          box-shadow: 0px 4px 22px #1412120d;
+  border-radius: 8px;
+}
+
+.blog-div .blog-post h5 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-div .blog-post p {
+  font-family: SoraR;
+  font-size: 13px;
+  color: #6b6060;
+}
+
+.faq-div {
+  background: #e9e6e639;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 100px;
+}
+
+.faq-div h1 {
+  font-size: 60px;
+}
+/*# sourceMappingURL=become-supplier.css.map */

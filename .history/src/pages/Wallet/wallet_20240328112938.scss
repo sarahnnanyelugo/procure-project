@@ -1,0 +1,28 @@
+.cards-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d8d4d4;
+  border-radius: 10px;
+  height: 197px;
+  padding: 20px;
+  p {
+    font-family: SoraR;
+    font-size: 14px;
+  }
+  h1 {
+    font-family: SoraM;
+    font-size: 50px;
+  }
+  button {
+    background: #fff;
+    padding: 5px 15px;
+    border-radius: 40px;
+  }
+}
+
+.total-div {
+  height: 193px;
+  background: #ff3c2b;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+}
