@@ -12,22 +12,7 @@ const OrderTable = (props) => {
   };
   return (
     <>
-      <div className="transactions-table-container2 flexy ">
-        <div className="flexy flexyM col-md-6">
-          <div className="">
-            <p>
-              ORDER ID:{""}
-              <span>{props.data.orderID}</span>
-            </p>
-
-            <br />
-            <Link>View order details</Link>
-          </div>
-          <div>
-            {" "}
-            <button className="order-status-btn">Completed</button>
-          </div>
-        </div>
+      <div className="transactions-table-container flexy ">
         <div className="col-md-6">
           <Row>
             <Col>

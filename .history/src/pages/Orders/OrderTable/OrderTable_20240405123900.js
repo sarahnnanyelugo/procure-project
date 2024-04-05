@@ -12,8 +12,8 @@ const OrderTable = (props) => {
   };
   return (
     <>
-      <div className="transactions-table-container2 flexy ">
-        <div className="flexy flexyM col-md-6">
+      <div className="transactions-table-container flexy ">
+        <div className="table-title2 flexy flexyM col-md-6">
           <div className="">
             <p>
               ORDER ID:{""}
