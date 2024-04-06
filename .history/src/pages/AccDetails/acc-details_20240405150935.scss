@@ -1,0 +1,146 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.form-container2 {
+  a {
+    color: #000;
+    text-decoration: none;
+    font-family: SoraM;
+    &:hover {
+      text-decoration: underline;
+    }
+    img {
+      margin-right: 10px;
+    }
+  }
+  small {
+    color: #b1a8a8;
+    font-size: 14px;
+
+    font-family: SoraR;
+  }
+
+  button {
+    width: 100%;
+  }
+  p {
+    font-family: SoraR;
+    a {
+      font-family: SoraR;
+      color: $appcolor;
+    }
+  }
+  .form {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+  }
+
+  .form input,
+  select {
+    width: 100%;
+
+    color: #191919;
+
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 62px;
+    margin-top: 20px;
+    border: solid 1px #bfbfbf;
+    background: #fff;
+    font-family: SoraR;
+    box-shadow: inset 0px 3px 6px #00000014;
+  }
+  .form label {
+    position: absolute;
+    bottom: 18px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: SoraR;
+    color: #707070;
+    pointer-events: none;
+  }
+  .form label::after {
+    content: "";
+    position: absolute;
+    // bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+
+  .content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    // padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name {
+    transform: translateY(-100%);
+    font-size: 12px;
+    left: 0px;
+    bottom: 10px;
+    color: black;
+  }
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after {
+    transform: translateX(0%);
+  }
+  button {
+    margin-top: 40px;
+    border: 1px solid var(--700);
+    border: 1px solid #141212;
+    border-radius: 40px;
+    background: #fff;
+    color: #000;
+    font-family: SoraM;
+    padding: 8px;
+    &:hover {
+      background: $appcolor;
+      color: #fff;
+      border: none;
+    }
+  }
+}
+.file-input-div {
+  border: 1px solid #f2f2f2;
+  border-radius: 7px;
+  height: 116px;
+  margin-top: 30px;
+  padding: 15px 30px;
+  p {
+    font-size: 10px;
+    color: #969393;
+    margin-top: 4px;
+  }
+  input {
+    background: #fff !important;
+    border: none !important;
+    font-family: SoraM;
+    font-size: 13px;
+    color: red !important;
+  }
+}
+.toggling-div {
+  border-bottom: solid 1px rgb(201, 198, 198);
+  p {
+    color: #707070;
+    font-size: 14px;
+    font-family: SoraR;
+  }
+  h6 {
+    font-size: 16px;
+    font-family: SoraR;
+  }
+}

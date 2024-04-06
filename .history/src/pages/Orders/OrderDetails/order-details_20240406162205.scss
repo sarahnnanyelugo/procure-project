@@ -1,0 +1,43 @@
+.order-details-div {
+  background: FCFCFC;
+  p {
+    font-family: SoraR;
+    span {
+      color: #707070;
+    }
+  }
+  button {
+    border: 1px solid #b9b6b6;
+    border-radius: 40px;
+    padding: 5px 30px;
+    font-family: SoraM;
+    background: #fff;
+    font-size: 14px;
+  }
+  .shipping-details-table {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #d8d4d4;
+    border-radius: 10px;
+    padding: 30px 20px;
+    font-family: SoraR;
+    margin-top: 40px;
+    line-height: 30px;
+    h6 {
+      font-family: SoraM;
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+  }
+  .shipment-heading {
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 10px 20px;
+    p {
+      color: #969393;
+      font-size: 12px;
+    }
+    h6 {
+      margin-bottom: 0px;
+    }
+  }
+}
