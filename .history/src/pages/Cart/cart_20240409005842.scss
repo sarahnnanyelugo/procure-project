@@ -1,0 +1,59 @@
+.cart-list-div {
+  input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #bfbfbf;
+    border-radius: 50px;
+    color: #bfbfbf;
+    font-family: SoraR;
+    padding: 0px 30px;
+    font-size: 14px;
+  }
+  .cart-list-container {
+    border: 1px solid #d2cdcd;
+    border-radius: 10px;
+    padding: 0 20px;
+    p {
+      font-family: SoraR;
+    }
+    h6 {
+      font-family: SoraM;
+    }
+  }
+  .accordion-button {
+    h5 {
+      margin-left: 10px;
+      margin-top: 5px;
+    }
+  }
+  .accordion-body {
+    padding: 20px 0 !important;
+  }
+  .accordion-button:not(.collapsed) {
+    background: #fff !important;
+  }
+  .accordion-button:focus {
+    background: #fff !important;
+    color: #000 !important;
+    border: none !important;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+.cart-items {
+  img {
+    margin: 0 25px;
+  }
+  h6 {
+    font-family: SoraR;
+    margin-bottom: 0;
+  }
+  p {
+    font-family: SoraR;
+    font-size: 14px;
+    color: grey;
+  }
+}
