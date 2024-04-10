@@ -15,7 +15,7 @@ export const Checkout = () => {
         </Link>
         <Link to={"/cart-list"}>Cart List /</Link>
         <p>Check out /</p>
-        <Link to={"/payment"}>Payment /</Link>
+        <Link to={"/checkout"}>Payment /</Link>
         <Link to={"/confirmation"}>Confirmation /</Link>
       </div>
       <div className="col-md-10 offset-md-1 cart-list-div d-md-flex">

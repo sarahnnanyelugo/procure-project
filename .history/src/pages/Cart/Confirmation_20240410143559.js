@@ -17,7 +17,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export const Confirmation = () => {
   return (
     <>
-      <Navbar colo="#000" />
+    <Navbar colo="#fff/>
       <div className="d-flex offset-md-1 bread-crumbs mt4">
         <Link to={"/"} className="back">
           Back to shopping
